@@ -1,0 +1,14 @@
+section{
+	background-color: #5bac88;
+	color: #fff;
+	font-family: Arial;
+	line-height: 240;
+	height: 250px;
+	text-align: center;
+	width: 250px;
+}
+.caja1{
+	-webkit-transform: matrix(1.06, 1.84, 0.54, 2.8, 0, 0);
+	transform: matrix(1.06, 1.84, 0.54, 2.8, 0, 0);
+	
+}

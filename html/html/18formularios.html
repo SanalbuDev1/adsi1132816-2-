@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="18.css" rel="stylesheet">
+    <script src="codigo.js"></script>
+    </head>
+  <body>
+    <form method="post">
+      <fieldset> 
+        <legend id="h3">datos de usuario</legend>
+        <!--nombres-->
+        <label for="nombres">.. Nombres</label>
+        <input type="text" id="nombres"><br>
+        <!--contraseña-->
+        <label for="contraseña">Contraseña</label>
+        <input type="password" id="contraseña"><br>
+        <!--foto--><br>
+        <label for="foto" id="h3">foto</label><br><br>
+        <input type="file" id="foto" accept="image/*">
+        <!--Lenguaje de programacion--><br><br>
+        <label for="lenguajes" id="h3">Lenguajes programacion</label><br><br>
+        <label id="h2">PHP</label>
+        <input type="checkbox" name="lenguajes" value="PHP"><br>
+        <label id="h2">Java</label>
+        <input type="checkbox" name="lenguajes" value="java"><br>
+        <label id="h2">c#</label>
+        <input type="checkbox" name="lenguajes" value="C#"><br><br>
+        <!--nacionalidad-->
+        <Label id="h3">nacionalidad</Label><br><br>
+        <label>Colombia
+          <input type="radio" name="nacionalidad" value="colombia"><br>
+        </label>
+        <label>Haiti
+          <input type="radio" name="nacionalidad" value="Haiti"><br>
+        </label>
+        <label>peru
+          <input type="radio" name="nacionalidad" value="peru">
+        </label>
+        <!--genero--><br><br>
+        <label for="genero" id="h3">Genero</label><br>
+        <select>
+          <option>seleccione</option>
+          <option value="F">Femenino</option>
+          <option value="M">Masculino</option><br>
+        </select>
+        <!--Deporte--><br><br><br>
+        <label for="deporte" id="h3">deporte</label>
+        <select multiple="multiple">
+          <option value="1">Futbol</option>
+          <option value="2">Balonces</option>
+          <option value="3">tenis de mesa</option>
+          <option value="4">lol</option>
+        </select>
+        <!--Description--><br><br><br>
+        <label for="description" id="h3">description</label><br><br>
+        <textarea id="description" cols="40" rows="6"></textarea>
+        <!--botones--><br><br>
+        <input type="submit" value="enviar datos">
+        <input type="reset" value="Reiniciar Formulario">
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link href="../css/07.css" rel="stylesheet">
+</head>
+<body>
+  <div class="css">
+    <h1>elementos de entrada (Formulario)</h1>
+    <hr>
+    <form method="post">
+      <label for="lenguajes">lista de lenguajes de programacion </label>
+      <input list="lenguajes">
+      <datalist id="lenguajes">
+        <option value="Python">python</option>
+        <option value="Ruby">Ruby</option>
+        <option value="Php">Php</option>
+        <option value="c#">c#</option>
+      </datalist><br><br>
+      <label for="generador">Generador de claves</label>
+      <keygen id="generador"><br><br>
+      <label for="salida">salida;</label>
+      <input type="range" id="rango" oninput="salida.value=this.value">
+      <output id="salida">0</output>
+    </form>
+  </div>
+</body>
+    
+      

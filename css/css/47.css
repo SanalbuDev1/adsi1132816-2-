@@ -1,0 +1,20 @@
+body {
+  font: 16px Arial;
+}
+section {
+  border: 2px solid #c0c0c0;
+  display: inline-block;
+  padding: 4px;
+  width: 220px;
+  vertical-align: top;
+}
+.box1{
+	word-spacing: 0em;
+}
+.box2{
+	word-spacing: 0.5em;
+	
+}
+.box3{
+	word-spacing: 1em;
+}

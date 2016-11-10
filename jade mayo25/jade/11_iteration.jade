@@ -1,0 +1,35 @@
+doctype
+html(lang="en")
+head
+  meta(charset="UTF-8")
+  title Document
+body
+ul
+  each val in [1, 2, 3, 4, 5]
+    li= val
+
+hr
+
+ul
+  each val, index in ['zero', 'one', 'two']
+    li= index + ': ' + val
+
+hr
+
+ul
+  each val, index in {1:'one',2:'two',3:'three'}
+    li= index + ': ' + val
+
+hr
+
+- var values = [];
+ul
+  each val in values.length ? values : ['There are no values']
+    li= val
+
+hr
+
+- var n = 0
+ul
+  while n < 4
+    li= n++

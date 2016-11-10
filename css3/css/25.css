@@ -1,0 +1,33 @@
+section.anim{
+	animation: 0.5ms AnimAnimacion infinite;
+	
+}
+@-webkit-keyframes AnimAnimacion{
+	from{
+		transform: translateX(0px);
+	}
+	to{
+		transform: translateX(0px);
+
+	}
+}
+div.forma{
+	
+	background: radial-gradient(#75eb43, #407f26);
+	border-radius: 50%;
+	height: 200px;	
+	margin: 200px auto;
+	width: 200px;	
+	animation: 0.5s animForma infinite ease-in-out alternate;		
+}
+
+@-webkit-keyframes animForma {
+	from{
+		transform: translateY(0px);
+	}
+	to{
+		transform: translateY(-220px);
+
+	}
+}		
+	

@@ -1,0 +1,22 @@
+section{
+	background-color: #9734E3;
+	color: #fff;
+	height: 150px;
+	width: 300px;
+	text-align: center;
+	font-family: 'Conv_Pokemon Solid';
+	
+	
+}
+section.caja1{
+	-webkit-transform: translate(100px,100px);
+	transform: translate(100px,100px);
+}
+section.caja2{
+	-webkit-transform: translateX(500px);
+	transform: translateX(500px);
+}
+section.caja2{
+	-webkit-transform: translateY(300px);
+	transform: translateY(300px);
+}

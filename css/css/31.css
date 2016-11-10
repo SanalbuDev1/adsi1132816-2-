@@ -1,0 +1,42 @@
+
+section{
+
+	border: 2px dotted #ccc;
+	height: 600px;	
+	width: 600px;	
+	margin: 25px auto;
+
+}
+
+section div{
+
+		display: inline-block;
+		width: 150px;	
+		height: 150px;	
+		background-color: 	#ccc;
+		margin: 20px;
+		font: 150px Brush Script Std;
+		text-align: center;
+		
+		
+
+}
+
+section div.display{
+
+		display:none;
+
+}
+
+section div:hover{
+
+	background-color: #ddd;
+
+}
+
+h1{
+
+	text-align: center;
+	
+
+}

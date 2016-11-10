@@ -1,0 +1,202 @@
+*{
+
+	margin:0px;
+	padding:0px;
+	border:0px;
+
+}
+
+div.head{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ad22a1+0,2989d8+50,207cca+51,7db9e8+100 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ad22a1+0,5428d6+29,7db9e8+100 */
+background: #ad22a1; /* Old browsers */
+background: -moz-linear-gradient(top,  #ad22a1 0%, #5428d6 29%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ad22a1 0%,#5428d6 29%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ad22a1 0%,#5428d6 29%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ad22a1', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+
+
+width: 100%;
+height: 700px;
+
+
+}
+section.hermano{
+	height: 200px;
+	width: 250px;
+	
+	margin-left: 200px;
+	display: inline-block;
+	vertical-align: top;
+	
+	
+	
+}
+section.hermano2{
+	display: inline-block;
+	width: 330px;
+	height: 100%;
+	
+	margin-left: 240px;
+}
+
+section.hermano2 ol{
+	margin-top: 20px;
+}
+section.hermano2 ol li{
+	background-color: transparent;
+	display: inline-block;
+
+	
+
+	
+}
+section.hermano2 ol li  p.li{
+	font-size: 7px;
+	
+	display: inline-block;
+	font-weight: bold;
+	color: #E6D7D7;
+	width: 40px;
+	cursor: pointer;
+
+
+
+}
+
+section.hermano2 div.imagen{
+	width: 400px;
+	height: 400px;
+	margin-top: 50px;
+	
+	margin-left: -100px;
+	background: transparent url(../img/girasol.fw.png);Zz
+}
+div.primero{
+	background: transparent url(../img/primera.png)no-repeat top center;
+	
+	height: 200px;	
+	width: 200px;	
+	background-size: cover;
+
+	
+	
+}
+p{
+	margin-top:100px;
+	font: 50px arial;
+	color:white;
+	width: 100px;	
+
+}
+p#uno{
+	margin-top:10px;
+	font: 28px arial;
+	color:#4254C5;
+	width: 220px;
+
+}
+p#dos{
+	margin-top:10px;
+	font: 10px arial;
+	color:#4C4A4A;
+	width: 350px;
+
+}
+section.segundo{
+	margin-top:40px;
+	width: 183px;	
+	height: 50px;	
+	background-color: 	#0078FF;
+	border-radius: 5px;
+	position:relative;
+}
+a{
+	text-align: center;
+	text-decoration:none;
+	color:white;
+	position:absolute;
+	left:35px;
+	top:12px;
+	font-size: 20px;
+}
+section#tres{
+		
+	height: 50px;	
+	width: 50px;
+	background-color: 	red;
+	display: inline-block;
+	margin-left: 150px;
+	border-radius: 0px 5px 5px 0px;
+	border-radius: 5px;
+	background-color: yellow;
+		
+}
+#mayor{
+	
+	display: block;
+	text-align: center;
+	
+	font:40px Fantasy;
+	  
+	
+}
+div.head2{
+	width: 100%;
+	height: 300px;
+	display: inline-block;
+	
+}
+div.head2 section.imagen{
+	background: url(../img/imagen2.png)no-repeat;
+	background-size:contain; 
+	width: 500px;
+	height: 300px;
+
+}
+div.head2 span.years{
+	color:red;
+	display: inline-block;
+	margin: -1000px 600px;
+	width: 450px;
+	color:#C0BEBE;
+	
+	height: 200px;
+	position: relative;
+	
+	
+}
+
+div.head2 span.years p.year{
+	color:red;
+	display: inline-block;
+	color:#116CE7;
+	width: 250px;
+	margin-top: 250px;
+	font-weight: bold;
+	position:relative;
+	top:-90px;
+}
+div.head2 span.years p.year2{
+	
+	width: 335px;
+	margin: -150px 250px;
+	color:black;
+	font-size:20px;
+	width: 200px;
+	
+	display: inline-block;
+	position:relative;
+	top:-112px;
+	
+	
+	
+	
+
+	
+}
+h3#lorem1{
+	position:relative;
+	top:-100px;
+}
+

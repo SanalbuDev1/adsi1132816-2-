@@ -1,0 +1,53 @@
+section.padre{
+
+		border: 2px solid #ccc;
+		height: 300px;	
+		width: 500px;	
+
+}
+
+section.padre div{
+
+		
+		height: 50px;
+		width: 50px;	
+
+}
+
+section.padre div.hija1{
+		
+	border: 2px solid;
+	height: 150px;
+	width: 	300px	
+	background-image: url("../imgs/nombre2.jpg");
+	height: 100px;
+	
+
+}
+
+section.padre div.hija2{
+
+	float: right;
+	height: 100px;
+	width: 440px;	
+	margin-top: -100px;
+	padding-top: -50px;
+}
+
+section.padre p.hija3{
+
+	margin-top: -40px;
+	height: 120px;
+	width: 440px;	
+
+
+}
+
+.padre1{
+
+		border: 2px solid;
+		height: 600px;	
+		width: 900px;	
+		background-color: 	black;
+
+}

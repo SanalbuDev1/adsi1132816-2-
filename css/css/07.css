@@ -1,0 +1,10 @@
+article > p {
+  color: #808080;
+  font-family: fantasy;
+}
+a + p {
+  color: #dc143c;
+}
+a[class] {
+  color: #008000;
+}

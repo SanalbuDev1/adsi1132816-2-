@@ -1,0 +1,38 @@
+doctype
+html(lang="en")
+    head
+      meta(charset="UTF-8")
+      title caso
+    body
+    - var amigos = 10
+    
+    case amigos
+      when 0
+        p foreveralome
+      when 1 
+        p tu tienes 1 amigos
+      default
+        p tu tienes #{amigos} amigos
+        
+    - for (var x = 0; x <= 10; x++)
+      ul
+        li item#{x}
+    hr
+    //ciclo en each
+  -
+      list = ["Uno", "Dos", "Tres",
+          "Cuatro", "Cinco", "Seis"]
+each item in list
+  
+    li= item
+    
+    
+     
+         
+     
+     
+     
+     
+           
+  
+    

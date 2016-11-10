@@ -1,0 +1,35 @@
+body {
+  font: 16px Showcard Gothic;
+}
+section {
+  border: 2px solid #999;
+  height: 260px;
+  border: solid;
+  margin: 20px auto;
+  padding: 10px;
+  position: relative;
+  width: 602px;
+}
+section div {
+  display: inline-block;
+
+  border: 2px solid #000;
+  line-height: 120px;
+  height: 120px;
+  margin-right: 6px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 188px;
+}
+section div.nomargen {
+  margin-right: 0px;
+}
+section div.grande {
+  width: 594px;
+}
+section div.absoluto {
+  background-color: rgba(220,220,220,0.8);
+  position: absolute;
+  top: 70px;
+  left: -100px;
+}

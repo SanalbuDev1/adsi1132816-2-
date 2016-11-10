@@ -1,0 +1,27 @@
+@import 'https://fonts.googleapis.com/css?family=Bungee+Inline|Josefin+Sans|Yellowtail';
+
+body{
+	background-color: #aaa;
+}
+section.principal{
+	background-color: #fff;
+	border: 2px solid #ad23ed;
+	padding: 10px;
+	margin: 40px auto;
+	width: 600px;
+}
+h1{
+	color: #02d0f5;
+	font-family: 'Bungee inline';
+	font-style: 2.5em;
+	text-align: center;
+	
+}
+p{
+	color: #1b04f8;
+	line-height: 1.5em;
+	text-align: justify;
+	font-family: 'Yellowtail';
+	font-size: 1.2em;
+	
+}

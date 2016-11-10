@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link rel="stylesheet" href="../css/01.css">
+	</head>
+	<body>
+	
+		<div id="cabezera">
+			<p class="wordStile">Word-Style   </p>
+			<nav id="nav1">
+				<li><a href="	">Register</a></li>
+				<li><a href="	">Contactenos</a></li>
+				<li><a href="	">Nosotros</a></li>
+				<li><a href="	">Servicios</a></li>
+				<p class="imag">	</p>
+				<hr>	
+				<button></button>
+
+				<input type="	">
+
+				<input type="text" placeholder="Busqueda">
+
+				
+			</nav>
+		</div>
+		<span class="Nosotros" tabindex="0">Informacion del Diseñador</span>
+		<div class="democlick2">
+  			<p id="mi">Informacion
+  			<p> Santiago Alvarez Buitrago</p>
+  			<p>celular 305 330 4324</p>
+  			<p>cedula 1060655854</p>
+  			<p>Tecn:ADSI</p>
+  			<p>Ingenieria en Sistemas</p>
+		</div>
+		<div class="cuerpo"></div>
+		<nav class="productos">
+			<ul class="pro1 pro11">Inventario1
+				<li>producto</li>
+				<li>producto</li>
+				<li>producto</li>
+				<li>producto</li>
+			</ul>
+			<ul class="pro1 pro12">Inventario2
+				<li>producto</li>
+				<li>producto</li>
+				<li>producto</li>
+			</ul>
+		</nav>
+		
+
+		<article class="head">
+			<nav class="left">
+				<li><a href="#democlick1">Login</a></li>
+				<li><a href="#democlick2">Registro</a></li>
+				<li><a href="#democlick3">Imagenes</a></li>
+				<li><a href="#democlick4">imagen4</a></li>
+			</nav>
+			<div id="democlick1">
+
+
+				<form id="login" action="">
+					<h1>Formulario - Login</h1>
+					<div class="user"></div>
+					<div class="pass"></div>
+					<input type="text" class="form user" placeholder="ingrese nombre" checked> 
+					<input class="form pass"type="password" maxlength="20" placeholder="ingrese su Contraseña">
+					<input name="option3" type="checkbox" class="form check" value="acepto terminos y condiciones">
+					<button class="boton" type="button">Logear</button>
+					<a id="remember" href="">olvide la contraseña</a>
+					<h2>Acepto que soy humano</h2>
+
+					
+				</form>
+			
+				</div>
+
+			<div id="democlick2">
+				
+				<form class="registro"action="">
+					<h2>Formulario - Registro</h2>
+					<input type="text" class="user" placeholder="Usuario">
+					<input type="password" class="pass" placeholder="Contraseña">
+					<h2 id="fecha">fecha de nacimiento</h1>
+					<input type="date" >
+					<input type="number" placeholder="ingrese su numero">
+					<input type="e-mail" placeholder="Ingrese su email">
+					<button class="boton1" type="submit">Submit</button>
+					<button class="boton1" type="reset">Registrarse</button>
+
+						
+
+
+
+
+				</form>	
+					
+
+
+			</div>
+
+			
+			<div id="democlick3">	
+
+				<div id="Nosotros">	
+					<p>Nosotros somos una empresa compremetida con las personas
+					para el beneficio de cada una de ellas</p>
+					<div id="carros" class="carro1">	</div>
+					<p id="carros2"class="carro1"></p>
+					
+
+				</div>
+
+
+			</div>
+			<div id="democlick4">	
+
+
+					<form action="	">
+						<input type="text" placeholder="nombre">
+						<select name="	ssss" id="ddd">Selecione
+							<option value="">Selecione</option>
+							<option value="">Queja</option>
+							<option value="">Comentario</option>
+						</select>
+						<input id="TextArea" type="text" placeholder="escribeme">
+						<button>Enviar	</button>
+
+					</form>
+			</div>
+		</article>
+
+		
+	
+
+		<article>
+			<nav class="left">
+				<li><a href="#democlick1">imagen1</a></li>
+				<li><a href="#democlick2">imagen2</a></li>
+				<li><a href="#democlick3">imagen3</a></li>
+				<li><a href="#democlick4">imagen4</a></li>
+			</nav>
+			<div id="democlick1">	</div>
+			<div id="democlick2">	</div>
+			<div id="democlick3">	</div>
+			<div id="democlick4">	</div>
+		</article>
+
+		<form action="">
+		<h1 id="formulario">login</h1>
+			<input class="formi" type="text" maxlength="20" placeholder="ingrese su usuario ">
+					
+					<input class="formi"type="password" maxlength="20" placeholder="ingrese su Contraseña">
+					<br>
+					<button class="form" type="button"><a href="regitro1.html">registro</a></button>
+					<button class="form" type="button">login</button>
+		</form>
+		 <EMBED SRC="ms4.mp3" AUTOSTART=true LOOP=true VOLUME="80" WIDTH="0" HEIGHT="0">  
+
+	</body>
+<script>
+
+		var sprite = document.getElementById('carros','carros2');
+		var na=1;
+		setInterval(function() {
+			//sprite.classList.removeALL();
+			sprite.className= '';
+			sprite.classList.add('carro'+na);
+			if(na==5) na=1;
+			else na++;
+		},2000);
+
+	</script>
+
+</html>
+

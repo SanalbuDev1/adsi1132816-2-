@@ -1,0 +1,90 @@
+body{
+	font: 16px Arial;
+	background-color: #5B0795;
+	color: #F0FDB2;
+}
+section{
+	border: 10px solid #F0FDB2;
+	padding: 20px;
+	margin: 20px auto;
+	width: 800px;
+	background-color: #A449F1;
+
+}
+form input{
+	background-color: #5b0795;
+	border:none;
+	color:#fff;
+	font-size: 2em;
+	display: block;
+	outline: none;
+	padding: 20px;
+	width: 91%;
+	margin-bottom: 2px;
+
+
+	}
+form input:focus{
+	background-color: #b449d9;
+	color:#5a672e;
+}
+div.box::after,div.box::before{
+	content: '';
+	position: absolute;
+}
+div.box{
+	background-color: #d82a4f;
+	height: 200px;
+	position: relative;
+	top:0;
+	left: 0;
+	width: 200px;
+}
+div.box::after{
+	background-color: #ff2e5c;
+	height: 100px;
+	top: 0;
+	left: 100px;
+	width: 100px;
+}
+div.box::before{
+	background-color: #ff2e5c;
+	height: 100px;
+	top: 100px;
+	left: 0px;
+	width: 100px;
+}
+/*primera letra primera linea*/
+p::first-letter{
+	color: #6f7f39;
+	font-weight: bolder;
+	font-size: 4em;
+}
+p::first-line{
+	color: #6f7f39;
+
+}
+nav a:link,nav a:visited{
+	background-color: #5b0795;
+	color: #e1ffcf;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	padding: 20px 10px;
+	width: 168px;
+}
+nav a:hover{
+	background-color: #A449F1;
+	border: 4px solid #5b0795;
+	color: #6f7f30;
+
+}
+nav a:active{
+	background-color: #982956;
+	border:4px solid #982956;
+	color: #fff;
+
+/* pseudo clase para elementos de formulario*/
+	&::-webkit-input-placeholder{
+	color:white;
+}

@@ -1,0 +1,19 @@
+section{
+	background-color: #5Bac85;
+	color: #3a5645;
+	font-family: Arial;
+	line-height:130px;
+	text-align: center;
+	margin: 50px auto;
+	width: 250px;
+	height: 250px;
+
+}
+.caja1{
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.caja2{
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}

@@ -1,0 +1,41 @@
+body{
+	font-size: 10px ;
+}
+section{
+	
+	
+	
+	width: 1000px;
+	height: 205px;
+	border: 2px dotted;
+	padding: 5px
+
+}
+section div{
+	background :-webkit-linear-gradient(left,rgba(255,0,0,1),rgba(255,0,0,0));
+	display: inline-block;	
+	width: 242px;	
+	height: 200px;	
+	border: 2px solid;
+	
+
+}
+
+
+h1{
+	text-align: center;
+}
+.left h2{
+	text-align: left;
+}
+.right h2{
+	text-align: right;
+}
+.center h2{
+	text-align: center;
+}
+.justify h2{
+	text-align: justify;
+}
+
+

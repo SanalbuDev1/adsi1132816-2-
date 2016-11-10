@@ -1,0 +1,151 @@
+body{	
+	background: url(../imgs/invierno1.jpg);
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+}
+section.primero{
+	background-color: rgba(0,0,0,0.6);
+	margin-left:-30px;
+	width: 1500px;
+	height: 160px;
+	border: solid;
+}
+section div.izquierda{
+	margin-left:90px ;
+	width: 170px;
+	height: 160px;
+	background-position: top left;
+	background-image: url("../imgs/colonmbia2.jpg");
+	
+}	
+
+section div.pri{
+	margin:-110px 500px;
+	width: 438px;	
+	height: 160px;	
+	background-color: 	rgba(255,255,255,0.6);
+
+}
+section div.pri span{
+	color:red;
+	display: block;
+	font: 80px fantasy;
+	text-align: bottom center;
+	padding: 10px;	
+}
+section div.derecha{
+	margin: -160px 1230px ;
+	width: 170px;
+	height: 160px;
+	background-position: top left;
+	background-image: url("../imgs/colonmbia2.jpg");
+	
+}
+ul,li{
+	text-decoration: none;
+	list-style: none;
+
+}
+.nav li a{
+	background-color: rgba(0,0,0,0.6);
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	height: 15px;
+	margin-left: -10px;
+
+	display:block;
+}
+.nav li a:hover{
+	background-color: #ccc;
+}
+.nav > li {
+	float:left;
+}
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+			}
+.nav li:hover > ul {
+	display:block;
+	position:absolute;
+	min-width:140px;
+			}
+.nav li ul li{
+	position: relative;
+}
+.nav li ul li ul{
+	right:-40px;
+	top:0px;
+}
+section.segundo {
+	margin: 0px 30%;
+	padding: 0px;
+	background:url(../imgs/dark.jpg);
+	background-position: center;
+	width: 500px;
+	
+
+}
+section.segundo form{
+	
+	
+	position:relative; 
+	background-color: #333333
+	width: 450px;
+	height: 350px;
+	border:1px solid #4e4d4d;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	box-shadow: 0 0 10px #fff;
+	margin: 100px auto;
+
+}
+form h1{
+	text-align: center;
+	color: gray;
+	font-weight: normal;
+	font-size: 40pt ;
+	margin: 30px 0px;
+	font-family: 'Pinyon Script', cursive;
+}
+form input{
+	width: 280px;
+	height: 35px;
+	padding: 0px 10px;
+	color: #6d6d6d;
+	text-align: center;
+	margin:10px 100px;
+}
+form button{
+	width: 135px;
+	margin: 10px 0px 70px 80px;
+	height: 50px;
+	text-decoration: none;
+
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3c3c3c+0,7c4e4e+52,2a2828+100 */
+background: #3c3c3c; /* Old browsers */
+background: -moz-linear-gradient(top,  #3c3c3c 0%, #7c4e4e 52%, #2a2828 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #3c3c3c 0%,#7c4e4e 52%,#2a2828 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #3c3c3c 0%,#7c4e4e 52%,#2a2828 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c3c3c', endColorstr='#2a2828',GradientType=0 ); /* IE6-9 */
+
+
+	border: 1px solid #232323;
+	color: #fff;
+	box-shadow: 0px 2px 0px #000;
+	-moz-box-shadow:0px 2px 0px #000;
+	-webkit-box-shadow:0px 2px 0px #000;
+
+
+}
+form button a{
+	text-decoration: none;
+	color: white;
+}
+button:active{
+	background-color: red;
+}

@@ -1,0 +1,33 @@
+body{
+  margin: 20px auto;
+  width: 600px;
+  margin: 15px auto;
+}
+.Encabezado{
+  
+  font: 25px Ravie;
+  text-align: center;
+  margin: 10px auto;
+  background-color: #DDFF32;
+ 
+}
+.contenido {
+  text-align: center;
+  background-color: #DDFF32;
+  
+}
+#h1{
+  font: 25px Ravie;
+  padding: 5px 25px;
+  margin: 10px auto;
+  
+}
+h2{
+  background-color: #DDFF32;
+  padding: 5px 25px;
+  
+}
+.arriva{
+  background-color: #ff0000;
+  width: 600px;
+}

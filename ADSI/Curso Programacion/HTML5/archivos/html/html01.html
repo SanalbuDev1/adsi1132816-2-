@@ -1,0 +1,110 @@
+<!-- 
+mark : se utiliza para resaltar un texto sin importancia 60
+em : para dar enfasis 61
+strong : marcar texto importante 62
+small : Precentar textos legales 103
+cite : titulo de libro de cansiones , peliculas etc linea 78
+adress:  siempre dentore de un footer o small
+time : representa fecha y hora
+
+ -->
+
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="iso-8559-1"/>
+		<meta name="description" content="pagina de enseñanza html:5"/>
+		<meta name="keywords" content="html5, css3 , Javascript , diseño web"/>
+		<title> Hola bebe </title>
+		<link rel="stylesheet " href="../css/01.css"></link>
+	</head>
+	<body>
+		<header id="cabezeraweb">
+			<h1>Aprendiendo(Este es el titulo de la pagina web)</h1>
+		</header>
+		<nav id="nav">
+			<ul class="ul"><!-- // listas desordenadas (aparacen puntos)-->
+				<l1>Quienes somos</l1><!-- // elementos de la barra de navegacion -->
+				<li>Productos</li>
+				<li>Contactanos</li>
+				<li>amame</li>
+			</ul>
+			<ol><!-- // listas ordenada (aparacen numeros)-->
+				<li>Quienes somos</li><!-- // elementos de la barra de navegacion -->
+				<li>Productos</li>
+				<li>Contactanos</li>
+				<li>amame</li>
+			</ol>
+		</nav>
+		<aside >
+			
+			<blockquote id="c01">Primer elementos</blockquote>
+			<blockquote class="c02">segundo elemento</blockquote>
+			<blockquote id="c03">tercer elemento</blockquote>	
+
+		</aside>
+		<section>
+			<article>
+				<header>
+					<hgroup>
+						<h1 class="titulo">Titulo de la noticia </h1>
+						<h2>subtitulo de la noticia</h2>
+
+					</hgroup>
+				</header>
+				<figure>
+				<img src="../../imagenes/html5.png" width="1000" =""/>
+				<figcaption>
+					simpson
+				</figcaption>
+				</figure>
+
+					
+						<p><mark>NOTICIA 1</mark></p>
+						<p><em>seguimos hablando de noticias</em></p>
+						<p><strong>terminamos de hablar de noticias</strong></p>
+				
+				<footer>
+					<p><b>comentarios de los usuarios</b></p>
+				</footer>
+
+			<article>
+				
+				<header>
+					<hgroup>
+						<h1>Titulo de la noticia 2</h1>
+						<h2>subtitulo de la noticia 2</h2>
+					</hgroup>
+				</header>
+
+				<p>NOTICIA 2</p>
+				<p>seguimos hablando de <cite>Juegos del Hambre</cite></p>
+				<p>terminamos de hablar de noticias2</p>
+
+				<footer>
+					<p>comentarios de los usuarios</p>
+				</footer>
+
+			</article>
+			<article>
+				<header>
+					<hgroup>
+						<h1>noticia3</h1>
+						<h2>subtitulo de la noticia 3</h2>
+						<time datetime="2014/01/31" pubdate>noticia publicada el dia 08/05/2016</time>
+					</hgroup>
+				</header>
+				<p>NOTICIA 3</p>
+				<p>seguimos hablando de noticias3</p>
+				<p>terminamos de hablar de noticias3</p>
+
+				<footer>
+					<p>comentarios de los usuarios</p>
+				</footer>
+			</article>
+		</section>
+		<footer>
+			<h3><small>Derechos reservados<address>info :3103723411</address></small></h3>
+		</footer>
+ 	</body>
+</html>

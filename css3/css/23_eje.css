@@ -1,0 +1,20 @@
+section::before{
+	content: '😌';
+
+}
+
+section{
+	background-color: 	#c22a47;
+	position: relative;
+	height: 200px;	
+	width: 300px;
+	margin: 20px auto;
+	transition: width 2s, height 2s 2s , transform 2s 4s ;		
+}
+section:hover {
+	width: 600px;	
+	height: 400px;	
+	transform: rotate(45deg);
+	
+
+}

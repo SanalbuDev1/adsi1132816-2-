@@ -1,0 +1,53 @@
+@import 'https://fonts.googleapis.com/css?family=Covered+By+Your+Grace';
+
+section.principal{
+
+	background-color: rgba(23,23,23,0.6);
+	border: 2px solid #ad23ed;
+	padding: 10px;
+	margin: 40px auto;
+	width: 600px;
+	height: 600px;
+	border-radius: 3px;
+
+}
+nav{
+	background-color: rgba(23,23,23,0.9);
+	height: 40px;
+	border-radius: 3px;
+}
+nav li{
+	font-family: 'Covered By Your Grace', cursive;
+	display: inline-block;
+	margin-left: 45px ;
+	font-size: 30px;
+	background-color: rgba(125,233,123,0.5);
+	border-radius: 3px;
+	
+}article{
+	width: 600px;
+	height: 500px;
+	background-color: rgba(23,23,23,0.8);
+	margin-top: 20px ;
+}
+div.tran{
+	background: #fff url(../img/vamo_a_calmano.jpg);
+	height: 300px;
+	width: 300px;
+	margin :0px auto;
+	transition: all 3s;
+}
+div.tran:hover{
+	-webkit-transform: rotate(75deg) scale(2.2);
+}
+
+p{
+	font-family: 'Covered By Your Grace', cursive;
+}
+li:hover{
+    background-color: rgba(125,233,123,0.8);
+	cursor: pointer;
+}
+a{
+	text-decoration: none;
+}

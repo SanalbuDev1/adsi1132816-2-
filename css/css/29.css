@@ -1,0 +1,70 @@
+section.padre{
+  border: 2px solid #ccc;
+  height: 300px;
+  width: 300px;
+  padding: 10px;
+}
+section div{
+  
+  border: 2px solid #ccc;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 120px;
+  
+}
+
+section.padre .hija1.uno{
+
+  float: right;
+  background-color:   #ccc;
+  border: 2px solid;
+
+}
+
+.hola{
+
+    background-color:   gray;
+    height: 8px;
+    width: 8px; 
+    margin: -40px 0px 0px 40px ;
+    
+
+}
+
+section.padre1{
+
+    border: 2px solid;
+    height: 600px;  
+    width: 800px; 
+
+}
+img{
+
+    float: left;
+
+    }
+
+section.padre2{
+
+    border: 2px solid;
+    height: 600px;  
+    width: 800px; 
+
+}
+img{
+
+    float: left;
+
+    }
+
+section p.limpiar{
+
+    clear: left;
+
+}
+
+
+  

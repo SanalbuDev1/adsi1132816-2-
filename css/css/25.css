@@ -1,0 +1,97 @@
+body {
+  background-color: silver;
+  font: 16px Showcard Gothic;
+  color: blue;
+}
+h2 {
+  background-color: white;
+  padding: 20px;
+}
+section {
+  background-color: rgba(255,0,0,0.5);
+  height: 500px;
+  padding: 20px;
+}
+section div {
+  display: inline-block;
+  height: 400px;
+  margin-left: 10px;
+  width: 400px;
+  }
+.fondocolor .fondo1 {
+  background-color: #dc1bd5;
+}
+.fondocolor .fondo2 {
+  background-color: #27c7d1;
+}
+.fondocolor .fondo3 {
+  background-color: #e41856;
+}
+.imagenfondo .imagen1 {
+  background-image: url("../imgs/nombre1.jpg");
+}
+.imagenfondo .imagen2 {
+  background-image: url("../imgs/nombre2.jpg");
+}
+.imagenfondo .imagen3 {
+  background-image: url("../imgs/nombre3.jpg");
+}
+.repetirfondo div {
+  background-color: black;
+  background-image: url("../imgs/nombre5.jpg");
+  color: #98e314;
+  width: 298px;
+}
+section div h3 {
+  background-color: rgba(0,0,0,0.5);
+  color: #f80cea;
+  text-align: center;
+}
+.repetirfondo .fondo1 {
+  background-repeat: repeat;
+}
+.repetirfondo .fondo2 {
+  background-repeat: no-repeat;
+}
+.repetirfondo .fondo3 {
+  background-repeat: repeat-x;
+}
+.repetirfondo .fondo4 {
+  background-repeat: repeat-y;
+}
+.posicionfondo {
+  height: 1200px;
+}
+.posicionfondo div {
+  background-image: url("../imgs/nombre5.jpg");
+  background-repeat: no-repeat;
+}
+.posicionfondo .fondo1 {
+  background-position: center left;
+}
+.posicionfondo .fondo2 {
+  background-position: center center;
+}
+.posicionfondo .fondo3 {
+  background-position: center right;
+}
+.posicionfondo .fondo4 {
+  background-position: top left;
+  background-color: black;
+}
+.posicionfondo .fondo5{
+  background-position: top center;
+}
+.posicionfondo .fondo6{
+  background-position: top right;
+}
+.posicionfondo .fondo7 {
+  background-position: bottom left;
+
+}
+.posicionfondo .fondo8 {
+  background-position: bottom center;
+}
+.posicionfondo .fondo9 {
+  background-position: bottom right;
+}

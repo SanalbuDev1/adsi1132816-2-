@@ -1,0 +1,30 @@
+*{transition: all 1s;}
+body{
+	background-color: 	#123771;
+	color: #fff;
+	font: 16px Arial;
+	text-align: center;
+				
+}
+figure.logo{
+	background:  url(../img/pepsi01.png)no-repeat center center;
+	height: 354px;	
+	width: 919px;
+	margin: 0px auto;
+	
+		
+}
+@media (max-width: 1000px){
+	figure.logo{
+	background:  url(../img/pepsi02.png)no-repeat center center;
+	height: 374px;	
+	
+	width: 348px;
+}
+@media (max-width: 600px){
+	figure.logo{
+	background:  url(../img/pepsi03.png)no-repeat center center;
+	height: 156px;	
+	
+	width: 162px;
+}

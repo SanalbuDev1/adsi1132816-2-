@@ -1,0 +1,87 @@
+section{
+  margin: 0px 100px;
+  width :100%;
+}
+article{
+  text-align:center;
+}
+div{
+  display :inline-block;
+  background-color: #aaa;
+  width : 200px;
+  height : 180px;
+  font: 30px fantasy;
+  margin: 0px 0px -4px -4px;
+}
+.titulo{
+  background-color: red;
+}
+.maroon {
+  background-color: hsl(0, 100%, 25%);
+  color white;
+}
+.red {
+    background-color: hsl(0, 100%, 50%);
+  }
+.green{
+  background-color: hsl(39, 100%, 50%);
+}
+.blue{
+  background-color: hsl(246,100%,50%);
+}
+.rojo {
+    background-color: hsl(0,100%,50%);
+  }
+  .orange{
+    background-color: hsl(39,100%,50%);
+  }
+  .yellow{
+    background-color: hsl(60, 100%, 50%);
+  }
+  .olive{
+    background-color: hsl(60, 100%, 25%);
+    color: white;
+  }
+  .purple{
+    background-color: hsl(300, 100%, 25%);
+    color: white;
+  }
+  .fuchsia{
+    background-color: hsl(300, 100%, 50%);
+  }
+  .white{
+    background-color: hsl(0, 100%, 100%);
+  }
+  .lime{
+    background-color: hsl(120,120%,50%);
+  }
+  .green1{
+    background-color: hsl(120,100%,25%);
+    color: white;
+  }
+  .navy{
+    background-color: hsl(240,100%,25%);
+    color: white;
+  }
+  .blue1{
+    background-color: hsl(240,100%,50%); 
+  }
+  .aqua{
+    background-color: hsl(180,100%,50%);
+  }
+  .teal{
+    background-color: hsl(180,100%,25%);
+    color: white;
+  }
+  .black{
+    background-color: hsl(0,0%,0%);
+    color: white;
+  }
+  .silver{
+    background-color: hsl(0, 0%, 60%);
+  }
+  .gray{
+    background-color: hsl(0,0%,50%);
+    color: white;
+  }
+

@@ -1,0 +1,184 @@
+html {
+  font-size: 63.5%;
+}
+body {
+  
+  font: 1.6rem Arial;
+}
+fieldset {
+  border: none;
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  width: 800px;
+}
+fieldset legend {
+  background-color: #ef4786;
+  color: #fff;
+  padding: 10px 40px;
+}
+fieldset legend h2 {
+  margin: 0px;
+  padding: 0px;
+}
+/* --------------------------------------------
+p~ul selecionatodos los elementos <ul> precedidos por elementos p
+---------------------------------------------*/
+p~ul {
+  background-color: #f00;
+  border: 2px solid #16f4ec;
+}
+
+/*-- a[href^="https"]  * seleciona todos los elementos >a> cuyo valor de href comienze con https*/
+/*a[src$=".pdf"] Seleciona todos los elementos que terminen en pdf */
+/*a[src$=".pdf"] Seleciona todos los elementos que comienzen con google */
+/*a[href*="google"] Seleciona todos los elementos de google*/
+/* p:first-of-type sleeciona la primera p; */
+/* p:last-of-type sleeciona la ultima p; */
+/* p:only-child seleciona el priemr hijo del padre*/
+/* p:nth-child(2) seleciona el priemr hijo del padre*/
+/* p:nth-ast-child(2) seleciona e;
+
+
+
+
+ sleeciona la ultima p; */
+
+.j2 a[href^="https"],.j3 a[href$=".pdf"],.j4 a[href*="google"] {
+    background-color: #e5ffc7;
+    border 2px solid: #acc62b; 
+    color: #788011;
+    padding: 20px;  
+}
+
+.j2 a[href^="https"]:hover,.j3 a[href$=".pdf"]:hover, .j4 a[href*="google"]:hover{
+    background-color: #182FA3;
+    border 2px solid: #acc62b; 
+    color: #788011;
+    padding: 20px;  
+}
+.j5 p:first-of-type{
+    background-color: #182FA3;
+    border 2px solid: #acc62b; 
+    color: #788011;
+    padding: 20px;
+   
+}
+.j6 p:last-of-type{
+    background-color: #182FA3;
+    border 2px solid: #acc62b; 
+    color: #788011;
+    padding: 20px;
+   
+}
+.j7 p:only-of-type{
+    background-color: #182FA3;
+    border 2px solid: #acc62b; 
+    color: #788011;
+    padding: 20px;
+   
+}
+.j8 p:only-child{
+    background-color: #182FA3;
+    border 2px solid: #acc62b; 
+    color: #788011;
+    padding: 20px;
+
+   
+}
+.j9 p:nth-child(2){
+    background-color: #182FA3;
+    border 2px solid: #acc62b; 
+    color: #788011;
+    padding: 20px;
+   
+}
+.j10 p:nth-last-child(2){
+    background-color: #182FA3;
+    border 2px solid: #acc62b; 
+    color: #788011;
+    padding: 20px;
+   
+}
+.j11 p:nth-of-type(2){
+    background-color: #182FA3;
+    border 2px solid: #acc62b; 
+    color: #788011;
+    padding: 20px;
+   
+}
+.j12 p:nth-last-of-type(2){
+    background-color: #182FA3;
+    border 2px solid: #acc62b; 
+    color: #788011;
+    padding: 20px;
+}
+.j13 p:last-child{
+    background-color: #182FA3;
+    border 2px solid: #acc62b; 
+    color: #788011;
+    padding: 20px;
+}
+:root { 
+    background: -webkit-linear-gradient(left, #ab3361, #6a203c)
+}
+.j14 p:empty{
+    background-color: #182FA3;
+    border 2px solid: #acc62b; 
+    color: #788011;
+    padding: 20px;
+}
+.j15 #destino11:target,
+.j15 #destino2:target,
+.j15 #destino3:target,
+{
+    background-color: #182FA3;
+    border 2px solid: #acc62b; 
+    color: #788011;
+    padding: 20px;
+
+}
+                        
+.j16 input:enabled{
+  display: inline-block;
+  width: 600px; 
+  background-color: #182FA3;
+  border 2px solid: #acc62b; 
+  color: #788011;
+  padding: 20px;
+}
+.j17 input:disabled{
+  display: inline-block;
+  width: 600px; 
+  background-color: #182FA3;
+  border 2px solid: #acc62b; 
+  color: #788011;
+  padding: 20px;
+}
+.j18 input[type=checkbox]{
+  background-color: green;
+  -webkit-appearance:none;
+  cursor: pointer;
+}
+.j18 input:checked{
+  
+ background-color:  green;
+}
+
+.j19 section :not(p){
+  background-color:   #e5ffc7;
+  border: 2px solid #acc62b;
+  color: #70811a;
+  padding:  8px;
+}
+.j20 ::selection{
+
+    background-color:  #fc03e2;
+    border: 2px solid;
+    color: #0321ef;
+    padding: 8px; 
+
+}
+
+
+

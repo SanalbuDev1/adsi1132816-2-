@@ -1,0 +1,27 @@
+table{
+  border: 2px solid #ffdd22;
+  border-collapse : collapse;
+  margin: 50px  auto;
+ 
+  
+  
+}
+table th{
+  background-color: #ff33dd;
+  border: 2px solid #000000;
+  color: #000000;
+  font: 18px Tahoma;
+  padding: 20px;
+  text-align: center;
+  
+}
+#h1{
+  background-color: #ff8899;
+  color: #ffffff;
+  
+}
+.h2{
+  background-color: #ff8899;
+  color: #ffffff;
+  
+}

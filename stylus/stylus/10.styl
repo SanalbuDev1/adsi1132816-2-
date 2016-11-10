@@ -1,0 +1,32 @@
+colores=  red green blue yellow fuchsia aqua orange pink
+hola= true;
+ul.colores
+	for color,i in colores
+		li:nth-child({i+1})
+			color color
+			background-color rgba(color,50%)
+			text-align center
+			list-style none
+			font 20px Fantasy
+			width 500px
+			height 50px
+			margin-left 400px
+			transition all 0.5s
+			border-radius 2%
+			
+			&:hover
+				background-color darken(color,50%)
+				transition all 0.5s
+				transform: scale(3) skew(4deg) translateX(100px);
+				border-radius 50%
+				
+					
+					
+				
+				
+
+
+		
+		
+			
+		

@@ -1,0 +1,74 @@
+doctype
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    title Document
+  body
+    h1 carvas
+      hr
+      h2 cuadrado
+      canvas#cuadrado
+      h2 rectangulo
+      canvas#rectangulo
+      h2 rectangulo
+      canvas#triangulo
+      h2 circulo
+      canvas#circulo
+      h2 corazon
+      canvas#corazon
+      h2 texto
+      canvas#texto
+      
+      script.
+        
+        var canvas1 = document.getElementById('cuadrado');
+        var ctx1 = canvas1.getContext('2d');
+        ctx1.fillStyle = '#df2';
+        ctx1.fillRect(20,20,100,100);
+
+        var canvas1 = document.getElementById('rectangulo');
+        var ctx1 = canvas1.getContext('2d');
+        ctx1.fillStyle = '#df2';
+        ctx1.fillRect(20,20,200,100);
+
+        var canvas1 = document.getElementById('triangulo');
+        var ctx1 = canvas1.getContext('2d');
+        ctx1.fillStyle = '#df2';
+        ctx1.beginPath();
+        ctx1.moveTo(130,0);
+        ctx1.lineTo(0,10);
+        ctx1.lineTo(300,150);
+        ctx1.fill();
+        
+        var canvas1 = document.getElementById('circulo');
+        var ctx1 = canvas1.getContext('2d');
+        ctx1.fillStyle = '#df2';
+        ctx1.strokeStyle="black";
+        ctx1.arc(150, 50, 50, 0, 2 * Math.PI, false);
+        ctx1.fill();
+        ctx1.stroke();
+        ctx1.closePath();
+        
+        
+        var canvas1 = document.getElementById('corazon');
+        var ctx1 = canvas1.getContext('2d');
+        ctx1.fillStyle = 'red';
+        ctx1.beginPath();
+        ctx1.moveTo(75,40);
+        ctx1.bezierCurveTo(75,37,70,25,50,25);
+        ctx1.bezierCurveTo(20,25,20,62.5,20,62.5);
+        ctx1.bezierCurveTo(20,80,40,102,75,120);
+        ctx1.bezierCurveTo(110,102,130,80,130,62.5);
+        ctx1.bezierCurveTo(130,62.5,130,25,100,25);
+        ctx1.bezierCurveTo(85,25,75,37,75,40);
+        ctx1.fill();
+        
+        
+        var canvas1 = document.getElementById('texto');
+        var ctx1 = canvas1.getContext('2d');
+        ctx1.fillStyle = 'red';
+        ctx1.font = "60px Tahoma";
+        ctx1.fillText("ADSI",20,80);
+        ctx1.rect(0,0,200,120)
+        ctx1.stroke();
+        

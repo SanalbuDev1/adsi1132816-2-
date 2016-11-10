@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link rel="stylesheet" href="css/53.css">
+	</head>
+	<body>
+	<h1>Sprite</h1>
+	<hr>
+	<section id="sprite" class="anim1"></section>
+	<script>
+
+		var sprite = document.getElementById('sprite');
+		var na=1;
+		setInterval(function() {
+			//sprite.classList.removeALL();
+			sprite.className= '';
+			sprite.classList.add('anim'+na);
+			if(na==11) na=1;
+			else na++;
+		},1000);
+
+	</script>
+
+	</body>
+</html>

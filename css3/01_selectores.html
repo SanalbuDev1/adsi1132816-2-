@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<title> CSS3	</title>
+			<link rel="stylesheet" href="css/01.css">
+		</head>
+		<body>
+				<h1>	nuevos selectores css3</h1>
+				<hr>
+				<fieldset >
+					<legend>
+						<h2>p~ul</h2>
+					</legend>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, at!</p>
+				<ul>
+					<li>Lorem ipsum dolor.</li>
+					<li>Vitae voluptatibus, nulla.</li>
+					<li>Ad, nemo, iure.</li>
+				</ul>
+				<ul>
+					<li>Lorem ipsum dolor. 1</li>
+					<li>Nostrum, ut, odio. 2</li>
+					<li>Doloribus, esse, voluptates! 3</li>
+				</ul>
+				</fieldset>
+				<!-- ~-> Virguliña -->
+				
+				<!-- a[href^="https"]  -->
+				<fieldset class="j2">
+					<legend>
+						<h2>a[href^="https"]</h2>
+					</legend>
+				
+				<a href="http://www.google.com"> ir a google</a>
+				<a href="http://www.yahoo.com"> ir a Yahoo</a>
+				<a href="https://www.web.whatsapp.com"> ir a  whatzapp</a>
+				<a href="http://www.facebook.com">ir a facebook</a>
+				</fieldset>
+				<!-- a[src$=."pdf"] seleciona todos los elementos que terminen en pdf  -->
+				<fieldset class="j3">
+					<legend>
+						<h2>a[src$=".pdf"]</h2>
+					</legend>
+				
+				<a href="hola.pdf"> ir a pdf</a>
+				<a href="amandote"> ir a Yahoo</a>
+				<a href="amame"> ir a  whatzapp</a>
+				<a href="facebook.pdf">ir a facebook</a>
+				</fieldset>
+
+				<fieldset class="j4">
+					<legend>
+						<h2>a[href*="google"]</h2>
+					</legend>
+				
+				<a href="https://translate.google.com.co/?hl=es-419&tab=wT"> ir a pdf</a>
+				<a href="amandote"> ir a Yahoo</a>
+				<a href="amame"> ir a  whatzapp</a>
+				<a href="facebook.pdf">ir a facebook</a>
+				</fieldset>
+
+				<fieldset class="j5">
+					<legend>
+						<h2>:first-of-type</h2>
+					</legend>
+				
+				<p>hola que hace</p>
+				<p>hola que hace</p>
+				<p>hola que hace</p>
+				<p>hola que hace</p>
+				</fieldset>
+
+				<fieldset class="j6">
+					<legend>
+						<h2>:last-of-type</h2>
+					</legend>
+				
+				<p>hola que hace</p>
+				<p>hola que hace</p>
+				<p>hola que hace</p>
+				<p>hola que hace</p>
+				</fieldset>
+
+				<fieldset class="j7">
+					<legend>
+						<h2>:only-of-type</h2>
+					</legend>
+				
+				<p>hola que hace</p>
+				
+				</fieldset>
+				<fieldset class="j7">
+					<p>hola que hace</p>
+					<legend>
+						<h2>:only-child</h2>
+					</legend>
+				
+				</fieldset>
+						
+				
+				
+				<fieldset class="j9">
+					
+					<legend>
+						<h2>p:nth-only(2)</h2>
+					</legend>
+				
+						<p>hola que hace</p>
+						<p>	adasdasd</p>
+						<p>adasdasd</p>
+						<p>adasdasd</p>
+						
+				
+				</fieldset>
+
+				<fieldset class="j10">
+					
+					<legend>
+						<h2>p:nth-last-only(2)</h2>
+					</legend>
+				
+						<p>hola que hace</p>
+						<p>	adasdasd</p>
+						<p>adasdasd</p>
+						<p>adasdasd</p>
+				
+				</fieldset>
+
+				<fieldset class="j11">
+					
+					<legend>
+						<h2>p:nth-of-type(2)</h2>
+					</legend>
+				
+						<p>hola que hace</p>
+						<p>	adasdasd</p>
+						<p>adasdasd</p>
+						<p>adasdasd</p>
+				
+				</fieldset>
+				
+				<fieldset class="j11">
+					
+					<legend>
+						<h2>p:nth-last-of-type(2)</h2>
+					</legend>
+				
+						<p>hola que hace</p>
+						<p>	adasdasd</p>
+						<p>adasdasd</p>
+						<p>adasdasd</p>
+						
+				</fieldset>
+				
+				<fieldset class="j13">
+					
+					<legend>
+						<h2>p:last-child</h2>
+					</legend>
+				
+						<p>hola que hace</p>
+						<p>	adasdasd</p>
+						<p>adasdasd</p>
+						<p>adasdasd</p>
+						
+				
+				</fieldset>
+
+				<fieldset class="j14">
+					
+					<legend>
+						<h2>p:empty</h2>
+					</legend>
+				
+						<p>hola que hace 
+								<p>	Lorem ipsum dolor</p>
+								<p>Lorem ipsum dolor</p>
+								<p>Lorem ipsum dolor</p>	
+						</p>
+						<p>	adasdasd</p>
+						<p>adasdasd</p>
+						<p>adasdasd</p>
+						
+				
+				</fieldset>
+
+					<fieldset class="j15">
+					
+					<legend>
+						<h2>destino:target</h2>
+					</legend>
+				
+						<a href="#destino11">destino1</a>
+						<a href="#destino2">destino2</a>
+						<a href="#destino3">destino3</a>
+						<section>
+							<p id="destino1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, architecto.</p>
+							<p id="destino2">Doloremque expedita unde labore, nobis provident officiis alias quod corporis.</p>
+							<p id="destino3">Eligendi incidunt culpa aliquam, recusandae modi explicabo molestiae fuga asperiores.</p>
+						</section>
+						
+				
+				</fieldset>
+
+					</fieldset>
+
+					<fieldset class="j16">
+					
+					<legend>
+						<h2>destino:enabled</h2>
+						<input type="text" maxlength="20" placeholder="ingrese su usuario de Admin">
+				
+							<input type="password" maxlength="20" placeholder="ingrese su Contraseña">
+					</legend>
+				
+						
+							
+						
+						
+				
+				</fieldset>
+
+				
+
+				<fieldset class="j17">
+					
+					<legend>
+						<h2>destino:disabled</h2>
+						<input  type="text" name="lname" maxlength="20" placeholder="ingrese su usuario de Admin" disabled >
+				
+							<input type="password" maxlength="20" placeholder="ingrese su Contraseña" disabled>
+					</legend>
+				
+				</fieldset>
+
+				<fieldset class="j18">
+					
+					<legend>
+						<h2>destino:target</h2>
+						
+					</legend><label for="	"><input  type="checkbox" name="pais" checked>Colombia</label>
+					<br>
+						
+						<label for="	"><input type="checkbox" name="pais" >Argentina</label>
+						
+				
+				</fieldset>
+				<fieldset class="j19">
+					<legend>
+						<h2>	not(p)</h2>
+					</legend>
+					<section>
+						<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt aliquid, ex commodi quasi similique nam iste non sequi at quae dicta hic tenetur id ratione, corrupti numquam possimus quod repellat?</div>
+						<div>Autem illo, cumque expedita et perferendis exercitationem impedit error suscipit! Et error provident molestias repudiandae enim praesentium veritatis, facilis quas perspiciatis nam impedit vitae eos nulla minus modi quos fugit.</div>
+						<div>Alias aliquid fugit enim cupiditate ex ipsam deleniti, ipsa odit, sint aperiam. Voluptatibus sint, incidunt quas exercitationem rerum, id voluptatem velit dignissimos tempora perspiciatis nesciunt impedit sed numquam, odio nulla!</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore reiciendis optio sapiente, distinctio necessitatibus perferendis veritatis perspiciatis sunt. Libero dignissimos perspiciatis minus, architecto praesentium, placeat inventore omnis. Incidunt, cumque omnis!</p>
+					</section>
+				</fieldset>
+
+				<fieldset class="j20">
+					<legned>
+						<h2>	::selection</h2>
+					</legned>
+					<p>seleccionar texto de la pagina</p>
+				</fieldset>
+
+
+		</body>
+</html>

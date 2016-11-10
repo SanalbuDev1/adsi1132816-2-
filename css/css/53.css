@@ -1,0 +1,44 @@
+section#sprite{
+	background: black url(../imgs/shar.jpg) no-repeat;
+	border: 2px solid #ddd;
+	height: 70px;
+	margin: 20px auto;
+	width: 50px;
+}
+section#sprite.anim1{
+	background-position: 5px -430px;
+}
+section#sprite.anim2{
+	background-position: -35px -430px;
+}
+section#sprite.anim3{
+	background-position: -70px -430px;
+}
+section#sprite.anim4{
+	background-position: -110px -430px;
+}section#sprite.anim5{
+	background-position: -149px -430px;
+}
+section#sprite.anim6{
+	background-position: -195px -430px;
+}
+section#sprite.anim7{
+	background-position: -241px -430px;
+}
+section#sprite.anim8{
+	background-position: -280px -430px;
+}
+
+section#sprite.anim9{
+	background-position: -334px -430px;
+}
+section#sprite.anim10{
+	background-position: -385px -430px;
+}
+section#sprite.anim11{
+	background-position: -430px -430px;
+}
+section#sprite.anim12{
+	background-position: 5px -430px;
+}
+

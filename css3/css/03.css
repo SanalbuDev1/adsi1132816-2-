@@ -1,0 +1,65 @@
+body{
+	font: 16px Arial;
+	text-align: center;
+		
+}
+section{
+	background-color: 	#a5e8d1;
+	height: 250px;	
+	width: 400px;	
+	margin: 40px auto;	
+	border-radius:2%;
+}
+section h2{
+	color: #5a7f73;
+	font-size: 1em;
+	text-align: center;
+	line-height: 16em
+
+}
+.sombra1{
+	box-shadow: 0px 0px 10px #000;
+}
+.sombra2{
+	box-shadow: 20px 20px 10px #000;
+}
+.sombra3{
+	box-shadow: -10px 0px 20px #000
+}
+.sombra4{
+	box-shadow: 0px 0px 20px #000 inset;
+}
+.sombra5{
+	background-color: #effe32;
+	border-radius: 0px;
+
+	margin: 280px auto;	
+	height: 10px;	
+	width: 10px;	
+	font-size: 2px;
+	box-shadow: -80px 0px 0px 20px #e51e24,
+				-30px 0px 0px 20px #fff,
+				20px 0px 0px 20px #fff,
+				70px 0px 0px 20px #fff,
+				120px 0px 0px 20px #e51e24,
+
+				-80px -50px 0px 20px #effe32,
+				-30px -50px 0px 20px #000,
+				20px -50px 0px 20px #effe32,
+				70px -50px 0px 20px #000,
+				120px -50px 0px 20px #effe32,
+
+				-80px -100px 0px 20px #effe32,
+				-30px -100px 0px 20px #effe32,
+				20px -100px 0px 20px #effe32,
+				70px -100px 0px 20px #effe32,
+				120px -100px 0px 20px #effe32,
+
+				-80px -150px 0px 20px #000,
+				-30px -150px 0px 20px #effe32,
+				20px -150px 0px 20px #effe32,
+				70px -150px 0px 20px #effe32,
+				120px -150px 0px 20px #000;
+
+				
+}

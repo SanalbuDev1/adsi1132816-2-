@@ -1,0 +1,14 @@
+*{border-radius: 3px}
+section{
+	margin: 40px auto;
+	width: 600px;
+	height: 600px;
+	background-color: rgba(100,100,100,0.2);
+}
+nav{
+	width: 500px;
+	background-color: gray;
+	margin: 10px  40px;
+	position: relative;
+	top:20px;
+}

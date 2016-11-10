@@ -1,0 +1,8 @@
+section.box{
+	border: 50px solid transparent;
+	border-image: url(../img/borde.png) 70 70 round;
+	margin: 50px auto;
+	height: 500px;	
+	width: 400px;		
+	background: url(../img/E06.jpg) no-repeat;
+}

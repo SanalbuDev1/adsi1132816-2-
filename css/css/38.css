@@ -1,0 +1,9 @@
+body p.normal{
+	font-style: normal;
+}
+body p.italic{
+	font-style: italic;
+}
+body p.oblique{
+	font-style: oblique;
+}

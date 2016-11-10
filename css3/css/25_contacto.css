@@ -1,0 +1,80 @@
+@import 'https://fonts.googleapis.com/css?family=Covered+By+Your+Grace';
+section{
+	background-color: 	rgba(23,23,23,0.3);
+	height: 500px;
+	width: 600px;	
+	margin:40px auto;
+	padding: 20px;	
+	border-radius: 5px ;
+	transition: width 2s, height 2s 2s , transform 2s 4s ;	
+}
+section:hover{
+	width: 1000px;	
+	height: 600px;	
+	transform: rotate(45deg);
+}
+nav{
+	background-color: 	rgba(23,23,23,0.5);
+	height: 80px;	
+	margin:0px auto;
+	border-radius: 5px ;
+}
+nav li{
+	
+	background-color: 	rgba(23,23,23,0.8);
+	display: inline-block;
+	text-align: center;
+	height: 80px;	
+	width: 100px;
+	margin-left: 40px;	
+	border-radius: 5px ;
+	transition: all 1.5s ease-out;
+}
+a{
+	text-decoration: none;
+
+}
+a span{
+	font-family: 'Covered By Your Grace', cursive;
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	background-color: 	rgba(255,255,0,1);
+	margin-top: 52px;
+	transition: all 1.5s ease-out;
+}
+li:hover{
+	background-color: 	rgba(255,255,255,1);
+	transition: all 1s ease-out;
+}
+li:hover a span {
+	
+	transition: all 1s ease-out;
+	transform: translateY(-50px);
+}
+article{
+	height: 400px;	
+	width: 500px;	
+	background-color: 	gray;
+	margin :20px auto;
+	border-radius: 50% 5% 50% 5%;
+	transition: all 1.5s ease-out;
+	background: #fff url(../img/imagen1.jpg) no-repeat center top;
+	background-size: 200%;
+
+}
+article:hover{
+	transition: all 1s ease-out;
+	background-color: 	rgba(23,23,23,0.1	);
+	background-size: 80%;
+}
+
+article div:hover{
+	-webkit-transform: rotate(180deg) scale(1);
+	transition: all 1s ease-out ;
+	background-color: rgba(125,125,125,1);
+	
+
+}
+
+

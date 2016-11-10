@@ -1,0 +1,55 @@
+doctype
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    title Document
+    style(rel="stylesheet").
+      table{
+      border: 2px solid #ffdd22;
+      border-collapse : collapse;
+      margin: 50px  auto;
+      }
+      table th{
+      background-color: #ff33dd;
+      border: 2px solid #000000;
+      color: #000000;
+      font: 18px Tahoma;
+      padding: 20px;
+      text-align: center;
+      }
+      #h1{
+      background-color: #ff8899;
+      color: #ffffff;
+  
+      }
+      .h2{
+       background-color: #ff8899;
+       color: #ffffff;
+  
+      }
+    
+   
+    
+    
+  body
+  table(border='1')
+    tr
+      th(scope='colgroup' colspan='8') hola
+    tr
+      th(scope="rowgroup" rowspan="3" id="h1") hola papu
+      th(scope="col" colspan="2" class="h2") columnas 
+      th(scope="col" colspan="2") columnas 
+      th(scope="col" colspan="2") columnas 
+      th(scope="rowgroup" rowspan="2") hola papu
+      
+      
+    tr
+      th(scope="rowgroup" colspan="5") columnas
+      
+    tr
+      th(scope="col" colspan="2") columnas
+      th(scope="col" colspan="2") columnas 
+      th(scope="col" colspan="2") columnas 
+      th columna
+     
+      

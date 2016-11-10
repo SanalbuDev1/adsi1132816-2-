@@ -1,0 +1,33 @@
+main{
+	background-color: gray;
+	height: 1005px;
+	width: 1005px;
+	margin: 0px auto;
+	border:2px solid;
+
+}
+section{
+	background: #fff url(../img/tanga.jpg)  ;
+	background-size: cover;
+	height: 500px;
+	width: 500px;
+	display: inline-block;
+	
+	
+	
+
+	
+}
+section.trans1,section.trans2,section.trans3{
+transition: all 3s;
+
+}section.trans1:hover{
+	-webkit-transform: rotateY(180deg);
+	
+}
+section.trans2:hover{
+	-webkit-transform: rotate(180deg) scale(0.2);
+}
+section.trans3:hover{
+	-webkit-transform: scale(5.2) skew(20deg);
+}

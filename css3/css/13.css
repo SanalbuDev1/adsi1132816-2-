@@ -1,0 +1,13 @@
+p{
+	border: 4px dotted #ccc;
+	display: inline-block;
+	width: 50px;
+	vertical-align: top;
+	padding: 4px;	
+	margin-left: 100px;
+}
+p.parr2{
+
+	word-wrap: break-word;
+
+	}

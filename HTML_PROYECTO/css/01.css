@@ -1,0 +1,603 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Orbitron');
+body{
+	padding: 0px;	
+	margin:0px;
+	background: transparent url(../IMGS/E52.jpg)no-repeat ;
+	background-size: cover;
+
+	
+}
+div#cabezera{
+	width: 100%;
+	height: 100px;
+	background-color: rgba(149,138,233,0.4);
+	border-radius: 0px 0px 5px 5px;
+	position:relative;
+}
+p.wordStile{
+	
+	font-size:90px;
+	margin:0px 20px;
+	line-height: 90px;
+	border-right: 5px solid  #ff0000;
+	display: inline-block;
+	padding: 5px;	
+	color:rgba(255,255,255,0.6);
+	transition: all 1s ;
+}
+p.wordStile:hover{
+	text-decoration-color: black;
+	text-decoration: underline;
+	transition: all 1s ;
+	color:black;
+}
+nav#nav1{
+	display: inline-block;
+	width: 720px;	
+	height: 80px;	
+	color:white;
+	background-color: 	rgba(255,255,255,0.6);
+	margin:0px;
+	position:absolute;
+	top: 20px;	
+	font-size:20px;
+
+}
+nav#nav1 li{
+	display: inline-block;
+	
+	margin:10px 10px;
+	font-family: 'Orbitron', sans-serif;
+	transition: all 1s;
+
+
+
+		
+}
+nav#nav1 li:hover{
+	display: inline-block;
+	
+	margin:10px 10px;
+	font-family: 'Orbitron', sans-serif;
+	border-left: 3px solid red;
+	border-right: 3px solid black;
+	transition: all 1s;
+
+		
+}
+nav#nav1 li:hover{
+	transition: all 1s;
+	display: inline-block;
+	background-color: rgba(255,255,255,.2);
+	margin:10px 10px;
+	font-family: 'Orbitron', sans-serif;
+	border-top: 1px solid red;
+
+
+		
+}
+nav#nav1 li a{
+	text-decoration: none;
+}
+
+nav#nav1 p{
+	
+	background-size: contain;
+	position:relative;
+	top:-65px;
+	left:600px;
+				
+}
+nav#nav1 p{
+	
+	
+	background: url(../IMGS/nav.jpg)no-repeat center center;
+	width: 120px;	
+	height: 80px;	
+	background-size:cover;		
+}
+hr{
+	position: relative;
+	bottom:130px;
+	right: 60px;
+	height: 5px;	
+	width: 600px;		
+	color: black;
+	background-color: 	black;
+	border:none;
+}
+div#cabezera nav#nav1 input{
+	background:#f2f2f2 url(../IMGS/search.png)no-repeat 130px 2px 	;
+	position: absolute;
+	border:none;
+	height: 20px;
+	width: 150px;
+	top:50px;
+	left:20px;
+	z-index: 0;
+	
+		
+}
+div#cabezera nav#nav1 button{
+	background:#f2f2f2 url(../IMGS/search.png)no-repeat center center 	;
+	position: absolute;
+	border:none;
+	height: 22px;
+	width: 20px;
+	top:50px;
+	left:150px;
+	z-index: 1;
+	
+		
+}
+
+span.Nosotros{
+	color:#A7ACCA;
+	font-family: 'Orbitron', sans-serif;
+	position: relative;
+	left:660px;
+	top:-28px;
+	background-color: rgba(255,255,255,0.6);
+	display: inline-block;
+	width: 400px;
+	text-align: center;
+	height: 20px;
+	
+}
+div.democlick2{
+	width: 300px;
+	height: 200px;
+	margin:200px auto;
+	background-color: rgba(126,177,156,0.6);
+	box-shadow: 2px 2px 10px white;
+
+}
+ div.democlick2 p#mi{
+	color:white;
+	margin:20px auto;
+	font-family: 'Orbitron', sans-serif;
+	margin:10px;
+
+}
+ div.democlick2 p{
+	color:red;
+	margin:20px auto;
+	font-family: 'Orbitron', sans-serif;
+	margin:0px;
+	color:white;
+	font-size:20px;
+}
+.democlick2 {
+	display: none;
+}
+span:focus ~.democlick2 {
+	display: block;
+}
+nav.productos{
+	float: right;
+	width: 200px;
+	height: 100%;
+	background-color: rgba(255,255,255,0.4);
+	margin:-20px auto;
+}
+nav.productos ul.pro1{
+	list-style: none;
+
+	
+
+	font-family: 'Orbitron', sans-serif;
+
+	background-color: rgba(255,255,255,0.2);
+	border-bottom: 2px solid black;
+}
+nav.productos ul.pro1 li{
+	display: none;
+}
+nav.productos ul.pro11:hover li{
+	display: block;
+
+}
+nav.productos ul.pro12:hover li{
+	display: block;
+
+	transition: all 1s;
+	
+}
+nav.productos ul.pro12:hover li{
+	display: block;
+	transition: all 1s;
+
+
+}
+form{
+	margin: -20px auto;
+	width: 220px;
+	height: 300px;
+	background-color: rgba(255,255,255,0.6);
+	float:right;
+	display: inline-block;
+	
+}
+input.formi{
+	margin: 10px auto;
+	display: block;
+	width: 200px;
+	height: 30px;
+
+}
+button.form{
+	margin: 10px 5px;
+	display: inline-block;
+	width: 90px;
+	height: 30px;
+}
+button a{
+	text-decoration: none;
+	color:black;
+	
+}
+h1#formulario{
+	font-family: 'Orbitron', sans-serif;
+	text-align: center;
+	
+}
+article.head{
+
+	width: 950px;
+	height: 700px;
+	background-color: rgba(255,255,255,0.3);
+	display: inline-block;
+
+	
+
+	margin: 0px 5px;
+
+	border-right: 10px solid red;
+	position: relative;
+	bottom:17px;
+	
+}
+article nav.left{
+	width: 900px;	
+	
+	margin:0px auto;
+}
+article nav.left li{
+	
+	display: inline-block;
+
+	margin: 7px 9px;
+
+	margin-left: 16px;
+
+	width: 180px;
+	text-align: center;
+	font-family: 'Orbitron', sans-serif;
+	background-color: 	rgba(255,255,255,0.3);
+
+	font-size: 30px;
+	transition: all 1s;
+}
+article nav.left li:hover{
+	
+	display: inline-block;
+	margin: 7px 9px;
+	width: 200px;
+	text-align: center;
+	font-family: 'Orbitron', sans-serif;
+	background-color: 	rgba(255,255,255,0.1);
+	font-size: 20px;
+	transition: all 1s;
+
+}
+
+article nav.left li a{
+	text-decoration: none;
+
+		
+		
+}
+div#democlick1{
+	display: none;
+	width: 600px;	
+	height: 660px;	
+<<<<<<< HEAD
+	
+}
+div#democlick2{
+	display: none;
+	width: 600px;	
+	height: 660px;	
+	
+
+	background: transparent url(../IMGS/futurama.jpg)no-repeat;
+	background-size: cover;
+	margin:20px auto;
+
+}
+div#democlick1:target{
+	display: block;
+	width: 600px;	
+	height: 660px;	
+
+	
+}
+div#democlick1:target form#login{
+
+	margin:60px -110px;
+	width: 500px;
+	height: 300px;
+	position:relative;
+	box-shadow: 2px 2px 10px rgba(255,255,255,0.8);
+
+}
+div#democlick1:target form#login div.user{
+
+	height: 20px;
+	width: 20px;
+	background: transparent url(../IMGS/user.png)no-repeat;
+	background-size: cover;
+	padding: 10px;
+	position:absolute;
+	left: 360px;
+	
+
+}
+div#democlick1:target form#login div.pass{
+
+	height: 20px;
+	width: 20px;
+	background: transparent url(../IMGS/pass.png)no-repeat;
+	background-size: cover;
+	padding: 7px;
+	position:absolute;
+	left: 360px;
+	bottom:153px;
+	
+
+}
+
+div#democlick1:target form#login input.check{
+
+	height: 20px;
+	width: 20px;
+	height: 25px;
+	
+	
+	
+	position:absolute;
+	left:-167px;
+	top:155px;
+	
+	
+
+}
+div#democlick1:target form#login h2{
+	height: 20px;
+	width: 20px;
+	font-family: 'Orbitron', sans-serif;
+	font-size:20px;
+	
+	padding: 7px;
+	position:absolute;
+	left:70px;
+	top: 135px;
+	background-color: rgba(255,255,255,0.2);
+	width: 300px;
+	
+	
+
+}
+
+div#democlick1:target form#login input.form{
+
+	display: block;
+	margin: 2px 50px;
+	width: 360px;
+	padding: 10px;
+	
+	
+
+}
+
+div#democlick1:target form#login button.boton{
+
+	display: block;
+	margin: 40px 50px;
+	width: 385px;
+	padding: 10px;
+	
+	
+	
+	
+
+}
+div#democlick1:target form#login h1{
+
+	text-align:center;
+	background-color: red;
+	font-family: 'Orbitron', sans-serif;
+	
+
+}
+div#democlick2{
+	display: none;
+	
+}
+div#democlick2:target{
+	display: block;
+	margin: 50px 100px;
+	background-color: rgba(0,0,0,0.2);
+	height: 400px;
+	
+	
+}
+div#democlick2:target form.registro{
+	display: block;
+	width: 500px;
+	height: 400px;
+	margin:0px 50px;
+	box-shadow: 2px 2px 10px rgba(0,0,0,1);
+	
+	
+}	
+div#democlick2:target form.registro h2{
+	text-align: center;
+	background-color: red;
+	font-family: 'Orbitron', sans-serif;
+	
+	
+}
+div#democlick2:target form.registro h2#fecha{
+	text-align: center;
+	background-color: white;
+	font-size: 12px;
+	font-family: 'Orbitron', sans-serif;
+	display: inline-block;
+	padding: 10px;
+	margin-left: 180px;
+	
+	
+}
+div#democlick2:target form.registro input{
+	display: block;
+	margin: 3px 60px;
+	width: 365px;
+	padding: 10px;
+	
+	
+}		
+div#democlick2:target form.registro button.boton1{
+	display: inline-block;
+	margin: 3px 60px;
+	width: 100px;
+	padding: 10px;
+	
+	
+}	
+div#democlick1:target form#login a#remember{
+	display: block;
+	text-decoration: none;
+	margin: -20px 47px;
+	color:blue;
+	font-weight: bold;
+	font-family: 'Orbitron', sans-serif;
+	
+}
+div#democlick3 div#Nosotros{
+	
+	display: none;
+				
+
+}
+div#democlick3:target div#Nosotros{
+	width: 700px;
+	height: 600px;	
+	background-color: 	rgba(148,68,255,0.3);
+	display: block;
+	margin:auto;
+				
+
+}
+div#democlick3:target div#Nosotros p{
+		font-family: 'Orbitron', sans-serif;
+		font-weight: bolder;			
+
+}
+div#democlick3:target div#Nosotros div#carros:hover{
+		
+		height: 500px;	
+		background: transparent url(../IMGS/brayan.jpg)no-repeat center center;	
+		background-size: contain; 		
+
+}
+
+div#democlick3:target div#Nosotros div.carro1{
+		
+		height: 500px;	
+		background: transparent url(../IMGS/carro1.jpg)no-repeat center center;	
+		background-size: contain; 		
+
+}
+
+div#democlick3:target div#Nosotros div.carro2{
+		
+		height: 500px;	
+		background: transparent url(../IMGS/carro2.jpg)no-repeat center center;	
+		background-size: contain; 		
+
+}
+div#democlick3:target div#Nosotros p.carro2:after{
+		
+		content: "carrazo2";	
+
+}
+div#democlick3:target div#Nosotros div.carro3{
+		
+		height: 500px;	
+		background: transparent url(../IMGS/carro3.png)no-repeat center center;	
+		background-size: contain; 		
+
+}
+div#democlick3:target div#Nosotros div.carro4{
+		
+		height: 500px;	
+		background: transparent url(../IMGS/carro4.jpg)no-repeat center center;	
+		background-size: contain; 		
+
+}
+div#democlick3:target div#Nosotros div.carro5{
+		
+		height: 500px;	
+		background: transparent url(../IMGS/carro5.jpg)no-repeat center center;	
+		background-size: contain; 		
+
+}
+div#democlick4 form{
+	display: none;	
+}
+div#democlick4:target form{
+	display: block;
+	height: 300px;	
+	width: 400px;	
+	margin: 20px 300px;
+
+	
+}
+
+div#democlick4:target form input{
+	display: block;
+	padding: 10px;	
+	width: 300px;	
+	margin: auto;
+	margin:10px 0px 2px 38px;
+	outline:0px;
+	
+}
+div#democlick4:target form select{
+	display: block;
+	padding: 10px;	
+	width: 325px;	
+	margin:10px 0px 15px 38px;
+	
+}
+
+div#democlick4:target form input#TextArea{
+	display: block;
+	padding: 10px;	
+	width: 300px;	
+	margin: auto;
+	height: 100px;	
+}
+div#democlick4:target form button{
+	display: block;
+	padding: 10px;	
+	width: 324px;	
+	margin: auto;
+	height: 40px;	
+}
+
+
+	
+		
+

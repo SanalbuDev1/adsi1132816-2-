@@ -1,0 +1,23 @@
+main div{
+
+	border: 2px solid ;
+
+}
+
+main a{
+
+	border: 2px solid ;
+
+}
+
+main div.lineal{
+
+	display:inline;
+
+}
+
+main a.bloque{
+
+	display:block;
+
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link rel="stylesheet" href="02.css">
+	</head>
+	<body>
+	<section>	
+	            <a href="index.html"><p>Inicio</p></a>
+	</section>
+	
+	<form action="">
+
+		<h2>Registro</h2>
+		<input type="text" name="Nombre" placeholder="Nombre " required minlength="4" >
+		<input type="text" name="nombre" placeholder="Primer Apellido "  required minlength="3">
+		<input type="text" name="nombre" placeholder="Segundo  Apellido "  required minlength="3">
+		<input type="number"  placeholder="documento "  required minlength="11">
+		<input type="password" name="correo" placeholder="contraseña" required minlength="3">
+		<input type="number" name="telefono" placeholder="Telefono" required>
+		<input type="date" name="date_control"  required>
+		<textarea name="mensaje" placeholder="Escriba comentarios adicionales"></textarea>
+		<label for="">Genero</label>
+		<br>
+		<input class="select" type="radio" name="group1" value="1"><span>Masculino</span>
+		<br>
+		<input class="select" type="radio" name="group1" value="2" checked><span>Femenino</span>
+		<br>
+		<label for="">Modalidad de estudio</label>
+		<br>
+		<input class="select" type="radio" name="group1" value="1"><span>Carreras presenciales</span>
+		<br>
+		<input class="select" type="radio" name="group1" value="2" checked><span>Carreras virtuales</span>
+		<br>
+		<input type="text" name="text" placeholder="que le gustaria estudiar " required minlength="4" >
+			
+		<textarea name="mensaje" placeholder="Escriba comentarios adicionales"></textarea>
+		<input type="submit" value="Registrar" id="boton">
+
+	</form>
+		
+	</body>
+	
+</html>

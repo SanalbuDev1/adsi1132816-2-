@@ -1,0 +1,19 @@
+
+
+
+	
+body {
+/* shorthand: forma corta*/
+  background: #f2ab2d url("../imgs/fondop.jpg") no-repeat center center fixed;
+  font: 16px Showcard Gothic;
+  color: #79095d;
+  line-height: 30px;
+  padding: 50px;
+  text-align: justify;
+}
+p {
+  background-color: rgba(0,0,0,0.3);
+  padding: 40px;
+  margin: 50px auto;
+}
+

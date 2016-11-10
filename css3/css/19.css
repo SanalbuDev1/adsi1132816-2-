@@ -1,0 +1,22 @@
+section{
+	background-color: #5bac88;
+	color: #fff;
+	font-family: Arial;
+	line-height: 240;
+	height: 250px;
+	text-align: center;
+	width: 250px;
+	margin: 40px auto;
+}
+.caja1{
+	-webkit-transform: skew(25deg, 50deg);
+	transform: scale(25deg ,50deg);
+}
+.caja2{
+	-webkit-transform: skewX(50deg);
+	transform: scaleX(50deg);
+}
+.caja3{
+	-webkit-transform: skewY(20deg);
+	transform: skewY(20deg);
+}

@@ -1,0 +1,73 @@
+body{
+  background-color: #FFFFFF;
+  font: 16px Tahoma;
+  color: #333;
+}
+.marco1 {
+  background-color: #D8E9EA;
+  margin: 20px auto;
+  paddign: 10px;
+  width: 600px;
+}
+.encabezado {
+  background-color: #C3EFEC;
+  padding: 20px;
+  
+}
+.encabezado h1{
+  background-color: #FFFFF2;
+  color: #1060ff;
+  padding: 10px 36px;
+  margin-left: 10px;
+   -webkit-transition:all 0.5s ease-in;
+          transition:all 0.5s ease-in;
+  
+}
+.encabezado h1:hover {
+   background-color :#fff333;
+   color: #10606f;
+  
+}
+.encabezado a{
+  background-color: #FFFFFF;
+  color: #ff0000;
+  padding: 5px 20px;
+  margin-left: 10px;
+  text-decoration: none;
+   -webkit-transition:all 0.5s ease-in;
+          transition:all 0.5s ease-in;
+}
+.encabezado a:hover{
+  background-color :#ffdd33;
+  color: #10606f;
+ }
+.contenido {
+    text-align: center;
+}
+
+.contenido h1 {
+  background-color :#ffffff;
+  color: #1060ff;
+}
+.contenido img {
+  -webkit-transition: all 0.5s ease-in-out;
+         transition: all 0.8s ease-in-out;
+}
+.contenido:hover img {
+  -webkit-transform: scale(1.1) rotate(-360deg);
+          transform: scale(1.1) rotate(-360deg);
+}
+.contenido p{
+  color: #1060ff;
+  text align: justify;
+  padding: 2px;
+  line-height: 20px;
+}
+.contenido:hover {
+  background-color :#ffffff;
+ }
+.pie{
+  background-color :#ff0000;
+  color: #000000;
+  text-align: center;
+}

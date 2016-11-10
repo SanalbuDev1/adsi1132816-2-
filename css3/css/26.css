@@ -1,0 +1,24 @@
+section.anim{
+	
+	background: radial-gradient(#75eb43, #407f26);
+	border-radius: 50%;
+	height: 200px;	
+	margin-left: 400px;
+	width: 200px;	
+	animation: 1s animForma infinite ease-in-out ;		
+}
+
+
+@-webkit-keyframes animForma {
+	0%{
+		transform: translateX(0px) translateY(0px);
+	}
+	25%{
+		transform: translateX(800px) translateY(0px);
+
+	}50%{
+		transform: translateX(800px) translateY(800px);
+	}75%{
+		transform: translateX(0px) translateY(800px);
+	}
+}	

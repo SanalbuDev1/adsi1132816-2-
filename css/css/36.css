@@ -1,0 +1,38 @@
+body p.larger{
+	font-size: larger;
+}
+body p.smaller{
+	font-size: smaller;
+}
+body p.xx-small{
+	font-size: xx-small;
+}
+body p.x-small{
+	font-size: x-small;
+}
+body p.small{
+	font-size: small;
+}
+body p.medium{
+	font-size: medium;
+}
+body p.large{
+	font-size: large;
+}
+body p.x-large{
+	font-size: x-large;
+}
+body p.xx-large{
+	font-size: xx-large;
+}
+body p.px{
+	font-size: 16px;
+	
+	
+}
+body p.em{
+	font-size: 2em;
+	
+	
+	;
+}

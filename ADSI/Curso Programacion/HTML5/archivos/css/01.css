@@ -1,0 +1,65 @@
+body{
+	background-color: #ffffff;
+	color: #ff00dd;
+
+}
+#cabezeraweb{
+	background-color: #D89898;
+	color: #000011;
+
+}
+
+#nav{
+background-color: #332211;
+	color: #000011;
+
+
+}
+
+nav ul l1{
+	background-color: #D89898;
+
+}
+
+nav ul li{
+	background-color: #ff0000;
+
+}
+
+aside{
+	background-color: #ffffff;
+}
+
+#c01 {
+	background-color: #fff000;
+
+}
+
+.c02 {
+	background-color: #001122;
+
+}
+
+section{
+	background-color: #fff;
+  margin: 20px auto;
+  paddign: 10px;
+  width: 600px;
+
+}
+.titulo{
+	background-color: #df34df;
+	margin: 20px auto;
+	padding: 100px 150px;
+	
+
+}
+
+.titulo:hover{
+	background-color: #ff0000;
+	margin: 20px auto;
+	padding: 100px 150px;
+	text-align: center;
+	
+}
+

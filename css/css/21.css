@@ -1,0 +1,18 @@
+section {
+	background-color: #f5bee5;
+  	border: 4px dotted #ba539f;
+ 	height: 600px;
+ 	width: 800px;
+}
+h1{
+	color: #ff0000;
+}
+section div.box{
+	background-color: #ff0000;
+	height: 100px;
+	width: 200px;
+	/* Margenes:Forma Larga;*/
+	 
+	/* Margenes:forma corta*/
+	margin 100px 130px 200px 250px
+}

@@ -1,0 +1,184 @@
+body{
+	font:16px Tahoma;
+	padding: 0px;
+	margin: 0px;		
+}
+main#template03{
+	margin:0px auto;
+	width: 100%;	
+}
+section#topMenu{
+	background-color: #fff;
+
+}
+section#topMenu div{
+	display: inline-block;
+	height: 116px;	
+	vertical-align: top;
+	width: 	630px;
+	position: relative;
+	
+}
+section#topMenu div.logo figure{
+	background: #fff url(imgs/logo.png)no-repeat center center;
+	height: 52px;	
+	margin: 0px;
+	padding: 0px;
+	position:absolute;
+	left: 150px;	
+	top: 32px;	
+	width: 356px;			
+
+}
+section#topMenu div.links {
+	
+	width: 600px;	
+		
+}
+section#topMenu div.links nav  {
+	position: absolute;
+	top:26px;
+	left: 80px;	
+
+		
+}
+
+section#topMenu div.links a:link{
+	color: #adadad;
+	font-size:12px;
+	margin-right: 16px;
+	text-decoration: none;
+
+		
+}
+section#topMenu div.links nav input{
+	-webkit-appearance:none;
+	border:none;
+	background: #f2f2f2 url(imgs/search.png)no-repeat 190px center;
+	outline: none;
+	padding: 10px;
+	width: 220px;	
+	margin: 5px 70px;	
+		
+}
+
+section#topMenu div.links a.active{
+	color:#f0f;
+}
+section#mainMenu{
+	background-color: #333;	
+	
+}
+section#mainMenu ul {
+	width: 800px;
+	margin:0px auto;
+	padding: 0px;
+		
+}
+section#mainMenu ul li {
+	color:white;
+	height: 40px;	
+	display: inline-block;
+	vertical-align: top;
+	width: 120px;
+	line-height: 40px;
+	list-style: none;
+	text-transform: uppercase;
+	text-align: center;
+	
+
+				
+
+
+}
+section#mainMenu ul li.active {
+	background-color: 	#282828;
+	
+
+}
+section#mainMenu ul li:hover {
+	background-color: 	#282828;
+	
+
+}
+section#slider{
+	background: url(imgs/slide.png)no-repeat center center;
+	height: 420px;
+	background-size:cover;
+	position:relative;
+}
+section#slider nav{
+	position:relative;
+	top: 200px;	
+}
+section#slider nav button.right{
+	position:relative;
+	left: 1195px;	
+}
+section#slider nav button{
+	background-color: rgba(0,0,0,0.5);
+	border:none;
+	color:#fff;
+	font-size:2em;
+	width: 40px;
+
+}
+section#cards article{
+	width: 355px;	
+	display: inline-block;
+	vertical-align: top;
+	color:white;
+	margin-left: -5px;	
+	position:relative;
+}
+section#cards article.card1{
+	background-color: 	#FFD900;
+	color:black;
+	margin-left: 0px;	
+}
+section#cards article.card2{
+	background-color: 	#EA3C00;
+		
+}
+section#cards article.card3{
+	background-color: 	#007EE2;
+		
+}
+section#cards article.card4{
+	background-color: 	#61A514;
+	width: 358px;	
+		
+}
+section#cards article h1{
+	margin-left: 100px;
+}
+section#cards article h3{
+	font-weight: normal;
+}
+section#cards article p{
+
+}
+section#cards article button{
+	width: 30px;	
+	height: 30px;	
+	border-color:transparent;
+	position: absolute;
+	right: 0px;
+	bottom:7px;	
+}
+section#cards article.card1 button{
+	background: url(imgs/btn1.png)no-repeat center center;	
+		
+}
+section#cards article.card2 button{
+	background: url(imgs/btn2.png)no-repeat center center;	
+		
+}
+section#cards article.card3 button{
+	background: url(imgs/btn3.png)no-repeat center center;	
+		
+}
+section#cards article.card4 button{
+	background: url(imgs/btn4.png)no-repeat center center;	
+		
+}

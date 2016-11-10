@@ -1,0 +1,79 @@
+body,html{
+	background-color: 	#44DF73;
+	background-image: linear-gradient(to right,rgba(0,0,0,.1) 50%, transparent 0);
+	background-size: 50px 100%;
+	background-position: center center;
+
+}
+body{
+	font: 16px Fantasy;
+	color: #094220;	
+	padding: 20px;
+		
+	
+		
+}
+main{
+	margin: 30px auto;
+	text-align: center;
+	width: 800px;	
+}
+main h1{
+	font-size: 4em;
+	text-shadow: 1px 2px 10px white;
+}
+section#ventana{
+	box-shadow: 0px 2px 10px black;
+	height: 480px;	
+	margin: 0px auto;	
+	width: 640px;	
+	position: relative;
+	overflow: hidden;
+		
+}
+section#ventana div{
+	height: 480px;
+	width: 1280px;
+	background-position: center center;
+	position: absolute;
+	background-repeat: repeat-x;
+	
+}
+section#ventana div.cielo{
+	animation: 15s animParallax linear infinite;
+	background-image: url(../img/back.png);
+	z-index: 1;
+}
+section#ventana div.montana{
+	animation: 8s animParallax linear infinite;
+	background-image: url(../img/middle.png);
+	z-index: 2;
+}
+section#ventana div.carretera{
+	animation: 4s animParallax linear infinite;
+	background-image: url(../img/front.png);
+	z-index: 3;
+}
+section#ventana div.personaje{
+
+	background-image: url(../img/mario.gif);
+	background-position: center 380px;
+	background-repeat: no-repeat;
+	z-index: 4;
+	width: 640px;	
+	transition:all 0.25s;
+
+}
+section#ventana div.personaje:hover{
+	background-position: center 300px;
+	transition:all 0.5s;
+}
+
+@keyframes animParallax{
+	from{
+		background-position: 0px 0px;
+	}
+	to{
+		background-position: -1280px 0px;
+	}
+}

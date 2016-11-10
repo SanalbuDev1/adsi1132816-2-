@@ -1,0 +1,46 @@
+body {
+  margin: 0px 100px;
+  width: 100%;
+  font: 30px fantasy;
+  text-align: center;
+}
+.div1 {
+  background-color: #ff8;
+  height: 800px;
+  margin: 0px auto;
+  width: 800px;
+}
+.div2 {
+  background: -webkit-linear-gradient(left,rgba(255,23,45,1),rgba(255,23,45,0));;
+  margin-bottom: 100px;
+  height: 60px;
+  width: 800px;
+}
+.margin {
+  background-color: #ff0;
+  margin: 0px auto;
+  width: 800px;
+  height: 600px;
+}
+.border {
+  background-color: #0ff;
+  margin: 0px auto;
+  width: 700px;
+  height: 500px;
+}
+.padding {
+  background-color: #0f0;
+  margin: 0px auto;
+  width: 600px;
+  height: 400px;
+
+}
+.Econtent {
+  background: url("../imgs/bosquesito.jpg") no-repeat center center/cover;
+  margin: 0px auto;
+  width: 500px;
+  height: 300px;
+}
+p{
+  background :-webkit-linear-gradient(left,rgba(255,255,255,1),rgba(255,255,255,0));
+}

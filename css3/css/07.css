@@ -1,0 +1,44 @@
+section{
+background-color: 	gray;
+width: 1000px;	
+height: 2000px;	
+border: 2px solid;
+	
+}
+
+div.box1{
+	border: 100px solid transparent;
+    padding: 100px;
+    background: url(../img/descarga.jpg);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    height: 300px;	
+
+
+
+	
+
+	
+}
+div.box2{
+	border: 100px solid transparent;
+    padding: 100px;
+    background: url(../img/descarga.jpg);
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    height: 300px;	
+    
+	
+		
+}
+div.box3{
+	 border: 100px solid transparent;
+    padding: 100px;
+    background: url(../img/descarga.jpg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    height: 300px;	
+
+		
+	
+}

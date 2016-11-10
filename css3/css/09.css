@@ -1,0 +1,8 @@
+section.multiples{
+	border: 4px solid #618a4f;
+	background-image: url(../img/fondo3.png),url(../img/fondo2.png),url(../img/fondo1.png);
+	background-repeat: no-repeat;
+	height: 453px;
+	margin: 20px auto;
+	width: 724px;
+}

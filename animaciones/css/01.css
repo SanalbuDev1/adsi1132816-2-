@@ -1,0 +1,85 @@
+body,html{
+	background-color: 	rgba(23,23,23,1);
+	background-image: linear-gradient(to right,rgba(0,0,0,.1) 50%, transparent 0);
+	background-size: 50px 100%;
+	background-position: center center;
+
+}
+body{
+	font: 16px Fantasy;
+	color: rgba(50,50,50,0.6);	
+	padding: 20px;
+			
+}
+main{
+	margin: 30px auto;
+	text-align: center;
+	width: 800px;
+
+}
+main h1{
+	font-size: 4em;
+	text-shadow: 1px 2px 10px white;
+}
+section#ventana{
+	box-shadow: 0px 2px 10px black;
+	height: 480px;	
+	margin: 0px auto;	
+	width: 640px;	
+	position: relative;
+	overflow: hidden;
+	border-radius: 50% 50% 50% 50%;
+		
+}
+section#ventana div{
+	height: 480px;
+	width: 1280px;
+	background-position: center center;
+	position: absolute;
+	background-repeat: repeat-x;
+
+	
+}
+section#ventana div.cielo{
+	animation: 15s animParallax linear infinite;
+	background-image: url(../img/ani11.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	z-index: 1;
+	transition: all 1s
+}
+
+section#ventana div.cielo:hover{
+	animation: 15s animParallax linear infinite;
+	background-image: url(../img/images.jpg);
+	z-index: 1;transition: all 1s;
+}
+section#ventana div.carretera{
+	
+	background-image: url(../img/ani5.gif);
+	background-repeat: no-repeat;
+	z-index: 2;
+	position: relative;
+	left:-300px;
+	top:140px;
+	transition: all 1s;
+	
+}
+section#ventana div.carretera:hover{
+	background-image: url(../img/ani5.gif);
+	background-repeat: no-repeat;
+	z-index: 2;
+	position: relative;
+	left:-300px;
+	top:0px;
+	transition: all 1s;
+}
+
+@keyframes animParallax{
+	from{
+		background-position: 0px 0px;
+	}
+	to{
+		background-position: -1280px 0px;
+	}
+}

@@ -1,0 +1,33 @@
+section{
+
+		background-color: 	gray;
+		border: 2px solid;
+		height: 320px;	
+		width: 900px;	
+		padding: 20px;
+
+}
+section div{
+
+		background-color: white 	;
+		display: inline-block;
+		height: 220px;	
+		width: 200px;	
+		font-size: 10px;
+		border: 2px solid;
+		padding: 40px;
+		vertical-align: top
+
+}
+section div.lg12em h2 {
+
+		line-height: 1.2em;
+}
+section div.lg15em h2 {
+
+		line-height: 1.5em;
+}
+section div.lg2em h2 {
+
+		line-height: 2em;
+}

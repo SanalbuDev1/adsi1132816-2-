@@ -1,0 +1,16 @@
+section div{
+
+	margin: 0px 0px 0px 25px;
+	height: 600px;
+	width: 1000px;
+	background-color: black;
+	padding: 50px;
+}
+
+h1{
+	color: #822885;
+}
+p{
+
+	color: red;
+}

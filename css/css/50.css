@@ -1,0 +1,31 @@
+body{
+	background-color: #a10a43;
+	color: red;
+	font: 16px Arial;
+}	
+section{
+	border: 10px solid;
+	background-image: url(../imgs/nombre1.jpg);
+	height: 300px;
+	margin: 40px auto;
+	text-align: center;
+	width: 400px;
+}
+section.pointer{
+	cursor:pointer;
+}
+section.move{
+	cursor:move;
+}
+section.wait{
+	cursor:wait;
+}
+section.help{
+	cursor:help;
+}
+section.image{
+	cursor:image;
+}
+section.image{
+	cursor: url(../imgs/url.jpg),default;
+}
