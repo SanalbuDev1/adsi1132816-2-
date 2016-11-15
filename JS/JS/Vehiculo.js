@@ -12,7 +12,7 @@
 		marca:'Volkswagen',
 		referncia:'Beatle',
 		modelo: 2017,
-		imagen: '../imgs/beatle.jpg',
+		imagen: 'imgs/vw.jpg',
 		cilindrajre:2000,
 		//metodos
 
@@ -20,7 +20,7 @@
 			emarca.innerHTML = this.marca;
 			ereferencia.innerHTML = this.referncia;
 			emodelo.innerHTML = this.modelo;
-			eimagen.innerHTML = '<img src=+"this.imagen">';
+			eimagen.innerHTML = '<img src='+this.imagen+'>';
 			ecilindraje.innerHTML = this.cilindrajre;
 
 		},
