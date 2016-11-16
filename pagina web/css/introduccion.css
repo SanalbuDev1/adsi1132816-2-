@@ -122,7 +122,7 @@ button.btnsli:hover{
 }
 
 article.cajas div{
-	width: 350px;
+	width: 330px;
 	height: 300px;
 	border: 1px solid;
 	position: relative;
@@ -212,7 +212,7 @@ article.paletacolor{
 	width: 1500px;
 	height: 800px;
 	position: relative;
-	top: 1052px;
+	top: 1252px;
 	margin: 0px auto;
 }
 article.paletacolor div{
@@ -250,6 +250,7 @@ button.boton0{
 button.boton0:hover{
 	color: white;
 }
+
 section.gris div {
   width: 200px;
   height: 200px;
@@ -300,7 +301,7 @@ h2.tutu {
   left: 60px;
 }
 section.banner{
-	height: 1200px;
+	height: 1000px;
 	border:2px solid black;
 	margin-top:390px;
 }
@@ -512,9 +513,154 @@ h1#l1{
 		
 		font-size:10px;
 }
+h3.add{
+	position: absolute;
+	top:0;
+	font-size: 10px;
+	top:274px;
+	left:100px;
+}
+section.end{
+	height: 900px;
+	background-color: #282828;
+}
+section.primero{
+	height: 400px;
+	background-color: rgba(131,122,122,1);
+}
+p#p1{
+	margin:0;
+	font-size: 50px;
+	text-align: center;
+	line-height: 150px;
+}
+section.primero div.p2{
 
+	width: 300px;
+	height: 230px;
+	background-color: black;
+	margin-left: 200px;
 
+}
 
+section.primero div.p2{
+
+	width: 300px;
+	height: 230px;
+	background-color: #C93D0C;
+	margin-left: 200px;
+
+}
+
+section.primero div.c2{
+
+	width: 300px;
+	height: 230px;
+	background-color: #57901F;
+	margin-left: 520px;
+
+}
+section.primero div.c3{
+
+	width: 300px;
+	height: 230px;
+	background-color: #0D72C2;
+	margin-left: 840px;
+
+}
+section.primero p{
+	margin:40px auto;
+	text-align: center;
+	font-size: 70px;
+	color:white;
+	
+}
+section.primero h3{
+	text-align: center;
+	margin:-30px auto;
+	width: 100%;
+	color:white;
+	
+}
+section.primero h4{
+	text-align: center;
+	margin:25px auto;
+	width: 100%;
+	color:white;
+	font-size: 10px;
+	line-height: 20px;
+	
+}
+
+nav.nav1{
+	width: 100px;
+	height: 300px;
+	display: inline-block;
+	
+	margin:68px 100px;
+}
+nav.nav1 li{
+	display: block;
+	list-style: none;
+	margin:10px auto;
+	color:gray;
+}
+nav.nav2{
+	display: inline-block;
+	
+	vertical-align: top;
+	margin:68px 0px;
+}
+nav.nav2 li{
+	color:gray;
+	list-style: none;
+	margin: 10px auto;
+}
+div.img111{
+	background: transparent url(../imgs/print1.png)no-repeat center center;
+	width: 300px;
+	height: 200px;
+	display: inline-block;
+	margin-left:180px;
+}
+p.pa1{
+	display: inline-block;
+	margin:0px 190px 20px;
+	color:#383838;
+	height: 80px;
+	width: 500px;
+
+	position: relative;
+	top:-60px;
+}
+p.icon-facebook-official{
+	
+	display: inline-block;
+	color:black;
+	margin: 0px -680px;
+	line-height: 	30px;
+	background-color: 	white;
+	border-radius: 50%;
+	font-size: 50px;
+}
+p.icon-twitter{
+	
+	display: inline-block;
+	color:black;
+	margin-left:700px;
+	line-height: 	30px;
+	background-color: 	white;
+	border-radius: 50%;
+	font-size: 50px;
+}
+hr{
+	display: block;
+	background-color:gray;
+}
+p#final{
+	text-align: center;
+		
+}
 
 
 
