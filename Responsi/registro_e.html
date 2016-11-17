@@ -13,7 +13,7 @@
 	
 	<form action="">
 		<h2>Registro</h2>
-		<input type="text" name="Nombre" placeholder="Nombre Completo cliente" required>
+		<input type="text" name="Nombre" placeholder="Nombre Completo Provedor" required>
 		<input type="text" name="correo" placeholder="correo "  required >
 		<input type="password" name="correo" placeholder="contraseña" required>
 		<input type="text" name="telefono" placeholder="Telefono" required>
@@ -21,11 +21,14 @@
 		<textarea name="mensaje" placeholder="Escriba comentarios adicionales"></textarea>
 		
 
-		<input type="text" list="superheroes" name="list" placeholder="escriba su rol en la empresa" >
-		<datalist id="superheroes">
-    		<option label="Admin" value="Admin">
-   			<option label="Empleado" value="Empleado">
-		</datalist>
+		<select name="" id="">
+			<option value="">Selecione Banco</option>
+			<option value="">Bancolombia</option>
+			<option value="">BBVA</option>
+		</select>
+		
+		<input type="text" placeholder="Escriba el numero de targeta">
+		<input type="text" placeholder="Escriba el numero de seguridad">
 		<input type="submit" value="Registrar" id="boton">
 		<input type="reset" value="Borrar" id="boton">
 
