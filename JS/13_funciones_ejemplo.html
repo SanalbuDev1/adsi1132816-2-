@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>	Ejemplo</title>
+</head>
+<body>
+		
+		<style>	
+
+		body{background: teal;font:16px Arial;}
+		nav{
+		
+			margin:150px auto;
+			width: 1164px;		
+		}
+		nav ul.product{
+			list-style: none;	
+			margin: 0;	
+			padding: 0;	
+		}
+		nav ul.product li{
+			
+			border-radius: 156px;
+			border:6px solid black;
+			background-color: #fff;
+			padding: 10px;	
+			display: inline-block;
+			vertical-align: top;
+			width: 300px;
+			height: 300px;
+			margin-right: 50px;	
+			overflow: hidden;	
+						
+		}
+		li:last-child{
+			margin-right: 0px;	
+		}
+		nav ul.product li div figure.img{
+			background-color: rgba(32,32,32,0.2);
+			height: 200px;	
+			margin: 50px auto;
+			width: 200px;	
+			border-radius:50%;
+		}
+		nav ul.product li div figure.img1{
+			background: url(imgs/zombie1.jpg)no-repeat center center;
+			background-size:100%;
+			transition: ease-in all 0.3s;
+
+		}
+		nav ul.product li div figure.img1:hover{
+			transition: ease-in all 0.3s;
+			
+			background-size:140%;
+		}
+
+		nav ul.product li div figure.img2{
+			background: url(imgs/zombie2.jpg)no-repeat center center;
+			background-size:100%;
+		}
+		nav ul.product li div figure.img3{
+			background: url(imgs/zombie3.jpg)no-repeat center center;
+			background-size:100%;
+		}
+		nav ul.product li div button{
+			background-color: 	teal;
+			border:none;
+			border-radius:100px;
+			display: block;	
+			margin:-42px auto 0px auto;
+			width: 140px;	
+			padding: 10px;
+			font:16px Arial;
+			-webkit-transition:  ease-in all 0.5s;		
+		}
+		button:hover{
+			-webkit-transition:  ease-in all 0.5s;
+			cursor:pointer;
+			-webkit-transform: scale(1.1);
+			color:white;
+		}
+
+		.movedown{
+			-webkit-animation: 3s animM;
+		}
+		@-webkit-keyframes animM{
+				0%,100%{
+					transform: translateX(12px)translateY(12px) scale(1.5);
+
+				}
+				50%{
+					transform: scale(1.2);
+				}
+				80%{
+					transform: scale(0.9);
+					transform: rotateY(45deg)
+				}
+		}
+
+		
+		</style>
+	<nav>	
+		<ul class="product">
+			<li id="pr1">
+				<div class="state1">	
+						<figure class="img img1"></figure>
+						<button id="btn1">ver +</button>
+				</div>
+				
+			</li>
+			<li id="pr2">
+				<div class="state2 ">	
+						<figure class="img img2"></figure>
+						<button id="btn2">ver +</button>
+				</div>
+				
+     		</li>
+			<li id="pr3">
+				<div class="state3 ">
+						<figure class="img img3"></figure>
+						<button id="btn3">ver +</button>	
+				</div>
+				
+			</li>
+		</ul>
+	</nav>
+
+	<script>	
+
+			var states = document.getElementById('state1');
+			var boton1 = document.getElementById('btn1');
+			var boton2 = document.getElementById('btn2');
+			var boton3 = document.getElementById('btn3');
+
+			boton1.onclick=function(){
+				states[0].classList.add('movedown');
+				setTimeout(function() {states[0].classList.remove('movedown');
+				},1200);
+			}
+
+	</script>
+</body>
+</html>

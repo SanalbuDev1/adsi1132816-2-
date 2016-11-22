@@ -12,8 +12,17 @@
 	var avanzar=document.getElementById('ava');
 	var izquierda=document.getElementById('izq');
 	var derecha=document.getElementById('der');
+	var apagar=document.getElementById('apa');
 	
-	var vhcl=document.getElementById('vhcl')
+	var vhcl=document.getElementById('vhcl');
+
+	//validaciones
+
+	var valorIni= false;
+	var vdet=true;
+	var vgi=false;
+	var vgd=false;
+
 
 	var Vehiculo = {
 		//atributos
@@ -36,26 +45,79 @@
 		controles:function(){
 			iniciar.onclick=function(){
 					vhcl.classList.add('arrancar');
+					valorIni=true;
+					vdet=true;
 			}
 			pausar.onclick=function(){
-					vhcl.classList.remove('arrancar');
-					vhcl.classList.remove('retroceso');
-					vhcl.classList.remove('izquierda');
-					vhcl.classList.remove('avanzar');
-					vhcl.classList.remove('derecha');
+					if(valorIni == true && vdet==false){
+						vhcl.classList.add('detener');
+						
+						vdet=true;
+					}else{
+						alert('el carro no esta en movimiento');
+					}
+					
+					
+					
 			}
 			detener.onclick=function(){
-					vhcl.classList.add('retroceso');
+
+					if(valorIni && vdet==true){
+						vhcl.classList.add('retroceso');
+					}else{
+						alert('Prenda el vehiculo')
+					}
+					
 
 			}
 			avanzar.onclick=function(){
-					vhcl.classList.toggle('avanzar');
+					if(valorIni){
+						 vdet=false;
+						 vhcl.classList.remove('detener');
+						 vhcl.classList.add('avanzar');
+					}else{
+						alert('prenda el vehiculo');
+					}
+
+					
 			}
 			izquierda.onclick=function(){
-					vhcl.classList.toggle('izquierda');		
+				if(valorIni && vdet==false && vgi==false){
+					vhcl.classList.add('izquierda');
+					vhcl.classList.remove('avanzar');
+					vgi=true;
+					vgd=false;
+				}else{
+					alert('El vehiculo esta lokis');
+				}
+
+				/*if(valorIni){
+						vhcl.classList.remove('detener');
+						
+					}else{
+						alert('prenda el vehiculo');
+				}*/
+							
 			}
 			derecha.onclick=function(){
-					vhcl.classList.toggle('derecha');
+					if(valorIni && vdet==false && vgd==false){
+					vhcl.classList.add('derecha');
+					vhcl.classList.remove('avanzar');
+					vgi=false;
+					vgi=true;
+				}else{
+					alert('El vehiculo esta lokis');
+				}
+					
+			}
+			apagar.onclick=function(){
+					if(vdet){
+						valorIni=false;
+						vhcl.classList.remove('arrancar');
+					}
+					else{
+						alert('el vehiculo esta en movimiento');
+					}
 			}
 		}
 

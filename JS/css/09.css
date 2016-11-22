@@ -105,6 +105,9 @@ div#vhcl img{
 .derecha{
 	-webkit-animation: 7s animD infinite;
 }
+.detener{
+	-webkit-animation-play-state: paused;
+}
 
 @-webkit-keyframes animArrancar{
 	0%,100%{
@@ -165,4 +168,5 @@ div#vhcl img{
 		;
 	}
 }
+
 
