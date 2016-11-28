@@ -27,7 +27,7 @@
 		<button onclick="calcular();">Calcular</button>
 	</fieldset>
 		
-	<output id="resp"> </output>
+	<output id="resp">Resultado</output>
 
 		<script>	
 
@@ -43,8 +43,8 @@
 		function Multiplicar(n1,n2){
 			return 'la multiplicacion fue :' + (n1*n2);
 		}
-		function divicion(n1,n2){
-			return 'la divicion fue :' + (n1/n2);
+		function division(n1,n2){
+			return 'la division fue :' + (n1/n2);
 		}
 
 
@@ -64,7 +64,7 @@
 		   		re.innerHTML= Multiplicar(n1,n2);
 		   	}
 		   	if(op == 4){
-		   		re.innerHTML= divicion(n1,n2);
+		   		re.innerHTML= division(n1,n2);
 		 	}
 		}
 		

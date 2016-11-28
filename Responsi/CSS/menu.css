@@ -21,7 +21,7 @@ header{
 	color: #fff;
 	top:0;
   	left:0;
- 	z-index: 108;
+ 	z-index:1;
 		
 }
 input{
@@ -32,6 +32,9 @@ div.contenedor {
 	width: 98%;	
 	margin: auto;
 	display: table;
+	position: absolute;
+	z-index: 110;
+
 		
 }
 div.contenedor #menu-bar{
@@ -76,7 +79,7 @@ nav.menu a{
 	text-decoration: none;
 	padding: 10px ;
 	border-bottom: 1px solid rgba(255,0,0,0.5);
-  	z-index: 101;
+  	
 				
 		
 }
@@ -87,6 +90,7 @@ nav.menu a:hover{
 }
 #menu-bar:checked ~.menu{
 	transform: translateX(0px);
+	
 }
 
 section{
@@ -94,3 +98,6 @@ section{
   margin-bottom: 25px;
 }
 
+form{
+	z-index: 110;
+}
