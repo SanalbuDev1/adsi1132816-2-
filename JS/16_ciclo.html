@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<ul id="lista"></ul>
+	<script>
+	var listaf1 = document.getElementById('lista');	
+	var frutas = new Array('manzana','pera','luchuga','manzana','pera','luchuga');
+
+	listaf1.innerHTML= '<li>'+frutas[0]+'<li>';
+	listaf1.innerHTML+= '<li>'+frutas[1]+'<li>';
+	listaf1.innerHTML+= '<li>'+frutas[2]+'<li>';
+	listaf1.innerHTML+= '<li>'+frutas[3]+'<li>';
+	listaf1.innerHTML+= '<li>'+frutas[4]+'<li>';
+
+	listaf1.innerHTML+= '<li>'+frutas[5]+'<li>';
+
+
+	//forma corta
+
+	// for (var i = 0; i < frutas.length; i++) {
+		// lista.innerHTML += '<li>'+frutas[i]+'<li>';
+
+	// }
+
+
+	</script>
+</body>
+</html>

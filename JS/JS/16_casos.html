@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h2 id="saludos">saludos</h2>
+
+	<script>
+		
+		var saludos= document.getElementById('saludos');
+		var fecha = new Date();
+	
+
+		switch(fecha.getDay())
+		{
+		case 1:
+			alert('lunes');
+			break;
+		break;
+		case 2:
+			saludos.innerText = 'martes';
+			break;
+		break;
+		default:
+			saludos.innerText= "Feliz fin de semana";
+		}
+		
+
+	</script>
+
+</body>
+</html>

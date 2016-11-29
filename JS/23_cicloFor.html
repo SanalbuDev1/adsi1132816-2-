@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<fieldset>
+		<legend>
+			<h3>Contructor de tablas HTML</h3>
+		</legend>
+		<input type="number" id="nf" placeholder="Numero de Columnas">
+		<br>
+		<input type="number" id="nc" placeholder="numero de filas">
+		<br>
+		<button id="btnc">Construir tablas</button>
+	</fieldset>
+	<table>
+		
+	</table>
+	<script>
+		
+	var nf = document.getElementById('nf');
+	var nc = document.getElementById('nc');
+	var boton = document.getElementById('btnc');
+
+
+	boton.onclick = function(){
+			nf.innerHTML= '<tr></tr>';
+			nc.innerHTML= '<td>'+hola+'</td>';
+			alert('hola');
+	}
+
+
+
+
+	</script>
+</body>
+</html>

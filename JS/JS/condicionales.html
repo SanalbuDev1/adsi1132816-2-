@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+	<p id='hola'>Bienvenido</p>
+	<script>
+		
+	var p2 = document.getElementById('hola');
+	var p1 = prompt('cuantos años tiene');
+	if(p1>18){
+		p2.innerHTML = 'A beber';
+		p2.style.backgroundColor = 'red';
+	}else if(p1=='Paola Yaneth Rios Castaño'){
+		p2.innerHTML = 'Mi novia hermosa';
+		p2.style.backgroundColor = p1;
+	}
+	else{
+		p2.innerHTML = 'eres un bebe';
+	}
+
+
+	</script>
+
+</body>
+</html>
