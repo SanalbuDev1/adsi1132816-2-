@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<style>
+		*{margin:0;padding: 0;vertical-align: top;
+		}
+		body{
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#777777+2,afc4d6+34,7a9168+61,7db9e8+100&1+16,0.32+87 */
+background: -moz-linear-gradient(top,  rgba(119,119,119,1) 2%, rgba(144,153,161,1) 16%, rgba(175,196,214,0.83) 34%, rgba(122,145,104,0.57) 61%, rgba(124,172,189,0.32) 87%, rgba(125,185,232,0.32) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(119,119,119,1) 2%,rgba(144,153,161,1) 16%,rgba(175,196,214,0.83) 34%,rgba(122,145,104,0.57) 61%,rgba(124,172,189,0.32) 87%,rgba(125,185,232,0.32) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(119,119,119,1) 2%,rgba(144,153,161,1) 16%,rgba(175,196,214,0.83) 34%,rgba(122,145,104,0.57) 61%,rgba(124,172,189,0.32) 87%,rgba(125,185,232,0.32) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#777777', endColorstr='#527db9e8',GradientType=0 ); /* IE6-9 */
+
+
+		}
+		section{
+			margin:100px auto;
+			width: 500px;
+			height: 300px;
+			background-color: rgba(245,211,133,1);
+			box-shadow: 10px 10px 12px black;
+			border-radius:51px;
+		}
+
+		article.numeros{
+			width: 300px;
+			height: 226px;
+			background-color: red;
+			display: inline-block;
+			margin:0px 27px;
+			border-radius: 5px;
+			
+		}
+		article.operaciones{
+			width: 100px;
+			height: 226px;
+			background-color: white;
+			display: inline-block;
+			
+		}
+		article.operaciones div{
+			width: 100px;
+			height: 25px;
+			text-align: center;
+			margin:5px 0px;
+			background-color: gray;
+		}
+		section article.numeros div{
+			display: none;
+			margin:10px 8px;
+			display: inline-block;
+			height: 30px;
+			width: 80px;
+			background-color: white;
+			text-align: center;
+			font-size: 25px;
+			font-weight: bold;
+		}
+		section article.numeros div:hover{
+			background-color: #C7BCBC;
+		}
+
+		section div.resultado{
+			box-shadow: 2px 2px 10px black;
+			display: inline-block;
+			width: 400px;	
+			background-color: 	rgba(255,255,255,1);
+			height: 10px;	
+			margin: 10px 25px;
+			padding: 20px;
+			border-radius: 5px;	
+
+		}
+		div.resultado p{
+			text-align: right;
+			
+			
+		}
+
+	</style>
+	<section>
+		<div class="resultado">
+			<p>Resultado..</p>
+		</div>
+		<article class="numeros">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+			<div>4</div>
+			<div>5</div>
+			<div>6</div>
+			<div>7</div>
+			<div>8</div>
+			<div>9</div>
+			<div>.</div>
+			<div>=</div>
+			<div>0</div>
+		</article>
+		<article class="operaciones">
+			<div>X</div>
+			<div>-</div>
+			<div>+</div>
+			<div>/</div>
+			<div>RAIZ</div>
+			<div>mod</div>
+			<div>^</div>
+		</article>
+		
+	</section>
+</body>
+</html>
