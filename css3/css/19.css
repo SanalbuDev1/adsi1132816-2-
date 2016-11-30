@@ -13,8 +13,8 @@ section{
 	transform: scale(25deg ,50deg);
 }
 .caja2{
-	-webkit-transform: skewX(50deg);
-	transform: scaleX(50deg);
+	-webkit-transform: skewY(5deg);
+	transform: scaleY(5deg);
 }
 .caja3{
 	-webkit-transform: skewY(20deg);
