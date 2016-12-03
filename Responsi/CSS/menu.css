@@ -90,6 +90,7 @@ nav.menu a:hover{
 }
 #menu-bar:checked ~.menu{
 	transform: translateX(0px);
+
 	
 }
 

@@ -230,5 +230,15 @@ section#blog article{
     width: auto;
   }
 }
+#img2{
+
+  background: transparent url(../IMGS/coker1.png)no-repeat center center ;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 80%; 
+  height: 700px;  
+  margin:auto;
+  position: relative;
+}
 
 

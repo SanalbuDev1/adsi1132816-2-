@@ -35,6 +35,8 @@ div#login form{
 	position:relative;
 	top:10px;
 	float:right;
+	overflow: hidden;
+	z-index:0;
 	
 	
 	
