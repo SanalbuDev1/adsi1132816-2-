@@ -10,12 +10,14 @@
 	<div><h1>formulario compra</h1>
 		
 		<form action="">
-			<input type="text" placeholder="Nombre Completo">
-			<input type="text" placeholder="Apellidos">
+			<input type="text" placeholder="Nombre Completo" maxlength="50">
+			<input type="text" placeholder="Apellidos" maxlength="50">
 			<h2>fecha de nacimiento</h2>
 			<input type="date" placeholder="">
-			<input type="text" placeholder="Targeta de credito">
-			<input type="text" placeholder="Codigo de seguridad">
+			<input type="text" placeholder="Targeta de credito" min="00000000000" max="99999999999">
+			<input type="text" placeholder="Codigo de seguridad" min="000" max="999">
+			<input type="number" placeholder="cantidad" max="10" min="1">
+			<input type="text" placeholder="raza">
 			<button><a href=""></a>Comprar</button>
 		</form>
 	</div>
