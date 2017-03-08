@@ -24,6 +24,7 @@
 	var vgd=false;
 
 
+	
 	var Vehiculo = {
 		//atributos
 		marca:'Volkswagen',
